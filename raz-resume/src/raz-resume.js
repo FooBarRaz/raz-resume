@@ -8,7 +8,7 @@ export const raz = {
     email: 'mehraz.ali@live.com',
     phone: '1 (404) 889-6729',
     website: 'http://mehrazali.com',
-    summary: '"Our whole corporate culture is that we don\'t have a corporate culture."',
+    summary: 'some tagline here',
     location: {
       address: '4591 Sims Ct',
       postalCode: '30084',
@@ -32,34 +32,50 @@ export const raz = {
   work: [
     {
       company: 'Kinexys',
-      position: 'CEO',
+      position: 'CXO',
       website: 'http://kinexys.com',
       startDate: '2017-01-01',
       summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-      highlights: ['Started the company', 'building shit'],
+      highlights: [
+        'Started the company',
+        'Took Shotcaller from inception to production',
+        'Published Shotcaller to Apple App Store and Google Play Store',
+      ],
     },
     {
       company: 'Business Development/Analytics Company in Cincinnati, OH',
       position: 'Sr. Software Engineer',
       startDate: '2017-10-01',
-      summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-      highlights: ['Started the company', 'killed it'],
+      summary: 'Building a platform for data-driven business insights/analytics',
+      highlights: [
+        'Team lead',
+        'Took product from code-zero to production',
+        'Microservices',
+        'Pivotal Cloud Foundry',
+      ],
     },
     {
       company: 'Consumer Credit Reporting Agency in Atlanta, GA',
       position: 'Sr. Software Engineer',
       startDate: '2017-06-01',
       endDate: '2017-10-01',
-      summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-      highlights: ['Build a security / authentication challenge application'],
+      summary: 'Building a security / authentication challenge application',
+      highlights: [
+        'Cassandra',
+         'Security'
+      ],
     },
     {
       company: 'Credit Card and Payment Services Provider in Wilmington, DE',
       position: 'Sr. Software Developer',
       startDate: '2017-01-01',
       endDate: '2017-06-01',
-      summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-      highlights: ['Build a security / authentication challenge application'],
+      summary: 'Building, maintaining, and supporting a core business platform for credit and payment services',
+      highlights: [
+        'Microservices',
+        'CQRS/Event Sourcing',
+        'Axon',
+      ],
     },
     {
       company: 'Mortgage Loan and Financial Services Company in Reston, VA',
@@ -78,13 +94,12 @@ export const raz = {
       highlights: ['Data Testing Framework'],
     },
     {
-    {
       company: 'Automobile Auction Company in Atlanta, GA',
       position: 'Sr. Software Engineer',
       startDate: '2015-03-01',
       endDate: '2016-06-01',
       summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-      highlights: ['Build a security / authentication challenge application'],
+      highlights: [],
     },
     {
       company: 'Automobile Auction Company in Atlanta, GA',
@@ -92,7 +107,7 @@ export const raz = {
       startDate: '2017-06-01',
       endDate: '2017-10-01',
       summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-      highlights: ['Build a security / authentication challenge application'],
+      highlights: [],
     },
     {
       company: 'Outdoor Appliances and Accessories Manufacturer in Columbus, GA',
@@ -100,7 +115,7 @@ export const raz = {
       startDate: '2014-09-01',
       endDate: '2015-02-01',
       summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-      highlights: ['Build a security / authentication challenge application'],
+      highlights: [],
     },
     {
       company: 'Human Capital Software Company in Weston, FL',
@@ -108,18 +123,23 @@ export const raz = {
       startDate: '2014-03-01',
       endDate: '2015-08-01',
       summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-      highlights: ['Build a security / authentication challenge application'],
+      highlights: [],
+    },
+    {
+      company: 'CineMassive Displays',
+      position: 'Software Engineer',
+      startDate: '2011-12',
+      endDate: '2014-02',
+      summary: '',
+      highlights: [],
     },
   ],
   volunteer: [
     {
       organization: 'ZipCode Wilmington',
       position: 'Volunteer',
-      website: 'http://organization.com/',
-      // startDate: '2015-03',
-      // endDate: '2015-03',
-      summary: 'Bachmanity Insanity, which has been hailed as the event of the century, was able to raise over 1,000 pounds of non-perishable canned goods to help the homeless of San Frnacisco who have been abandoned by tech companies. ',
-      highlights: ['1,000 pounds of food donations', 'Event of the Century'],
+      website: 'https://www.zipcodewilmington.com/',
+      startDate: '2017-03',
     },
     {
       organization: 'Digital Youth Founders',
@@ -127,13 +147,6 @@ export const raz = {
       website: 'http://organization.com/',
       // startDate: '2008-05',
       // endDate: '2008-05',
-      summary: 'Aviatio (until its disbandment) was responsible for organizing a daily lunch for homeless employees',
-      highlights: [
-        'Organizer of the month (2008-05)',
-        'Volunteer of the month (2008-05)',
-        'Chef of the month (2008-05)',
-        'Customer of the month (2008-06)',
-      ],
     },
     {
       organization: 'Trees Atlanta',
@@ -142,7 +155,6 @@ export const raz = {
       // startDate: '2015-03',
       // endDate: '2015-03',
       summary: 'Bachmanity Insanity, which has been hailed as the event of the century, was able to raise over 1,000 pounds of non-perishable canned goods to help the homeless of San Frnacisco who have been abandoned by tech companies. ',
-      highlights: ['1,000 pounds of food donations', 'Event of the Century'],
     },
     {
       organization: 'Open Hand',
@@ -158,32 +170,20 @@ export const raz = {
     {
       institution: 'Georgia State University',
       area: 'Computer Science',
-      studyType: 'B.S. in Computer Science (incompleted)',
+      studyType: 'M.Sc. in Computer Science (incomplete)',
       startDate: '2005-08',
       endDate: '2006-01',
-      gpa: '4.0 (presumed)',
-      courses: [
-        'CS289A - Intro to Machine Learning',
-        'EECS 126 - Probability and Random Processes',
-        'CS C100 - Principles & Techniques of Data Science.',
-      ],
+      gpa: '4.30',
     },
     {
-      institution: 'Reed College',
-      area: 'Software Development',
-      studyType: 'Bachelor (incomplete)',
+      institution: 'University of Georgia',
+      area: 'Marketing',
+      studyType: 'Bachelor of Business Administration',
       startDate: '2003-08',
       endDate: '2004-05',
-      gpa: '2.7',
-      courses: [
-        'DB1101 - Basic SQL',
-        'JS 087 - Javascript Fundamentals',
-        'CS 095 - Advanced HTML',
-      ],
+      gpa: '3.2 in Major (Dean\'s List)',
     }
   ],
-  awards: [],
-  publications: [],
   skills: [
     {
       name: 'Incubating',
@@ -202,13 +202,6 @@ export const raz = {
       name: 'Web Development',
       level: '37',
       keywords: ['HTML', 'CSS', 'Javascript'],
-    },
-    {
-      name: 'Hydroponic Horticulture',
-      level: '75',
-      keywords: [
-        "Garage Gardening: experienced at producing top quality 'produce'",
-      ],
     },
     {
       name: 'Style',

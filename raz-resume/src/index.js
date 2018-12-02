@@ -3,13 +3,14 @@ import 'semantic-ui-css/themes/default/assets/fonts/icons.ttf';
 
 import PropTypes from 'prop-types';
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-import { raz, resumeType } from '../raz-resume';
-import Default from './themes/default/main';
+import { raz, resumeType } from './raz-resume';
+import  Resume from 'react-awesome-resume';
 
-const themes = {
-  default: Default,
-};
+// const themes = {
+//   default: Default,
+// };
 
 ReactDOM.render(
   <Resume jsonResume={raz} theme="default" />,
