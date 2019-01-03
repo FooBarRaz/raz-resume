@@ -52,6 +52,8 @@ export const raz = {
         'Took product from code-zero to production',
         'Microservices',
         'Pivotal Cloud Foundry',
+        'Distributed Team',
+        'Feature Toggles'
       ],
     },
     {
@@ -62,7 +64,8 @@ export const raz = {
       summary: 'Building a security / authentication challenge application',
       highlights: [
         'Cassandra',
-         'Security'
+        'Security',
+        'Distributed Team',
       ],
     },
     {
@@ -75,6 +78,7 @@ export const raz = {
         'Microservices',
         'CQRS/Event Sourcing',
         'Axon',
+        'Distributed Team',
       ],
     },
     {
@@ -82,8 +86,15 @@ export const raz = {
       position: 'Sr. Developer',
       startDate: '2016-09-01',
       endDate: '2016-12-01',
-      summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-      highlights: ['Coaching and Enablement'],
+      summary: 'Coaching five scrum teams ',
+      highlights: [
+        'Coaching and Enablement',
+        'AWS',
+        'Angular',
+        'Spring Boot',
+        'Trunk-based Development',
+        'Test-Driven Development'
+      ],
     },
     {
       company: 'Mortgage Loan and Financial Services Company in Reston, VA',
@@ -91,7 +102,12 @@ export const raz = {
       startDate: '2016-06-01',
       endDate: '2016-09-01',
       summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-      highlights: ['Data Testing Framework'],
+      highlights: [
+        'Data Testing Framework',
+        'Legacy System',
+        'ETL',
+        'Behaviour Driven Development'
+      ],
     },
     {
       company: 'Automobile Auction Company in Atlanta, GA',
