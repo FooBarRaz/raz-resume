@@ -54,7 +54,8 @@ export const raz = {
         'Microservices',
         'Pivotal Cloud Foundry',
         'Distributed Team',
-        'Feature Toggles'
+        'Feature Toggles',
+        'CLI',
       ],
     },
     {
@@ -89,7 +90,7 @@ export const raz = {
       position: 'Sr. Developer',
       startDate: '2016-09-01',
       endDate: '2016-12-01',
-      summary: 'Coaching five scrum teams  ',
+      summary: 'Coaching five scrum teams on Agile engineering practices',
       highlights: [
         'Greenfield',
         'Legacy',
