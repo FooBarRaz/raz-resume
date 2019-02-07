@@ -1,4 +1,5 @@
-#!/bin/node fs = require('fs');
+#!/bin/node 
+fs = require('fs');
 
 
 fs.readFile('./jigsaw_skills.json', 'utf8', (err, data) => {
@@ -17,7 +18,17 @@ function transform(skillsText) {
         .map(transformBySkill);
 
     console.log(actualSkills);
+    writeToFile(actualSkills);
+}
 
+function writeToFile(skillsData) {
+    fs.writeFile("./jigsaw_skills_transformed.json", JSON.stringify(skillsData), (err) => {
+        if (err) {
+            return console.log(err);
+        }
+
+        console.log("The file was saved!");
+    });
 }
 
 function transformBySkill(skillData) {
