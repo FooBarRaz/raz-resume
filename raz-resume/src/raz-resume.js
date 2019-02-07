@@ -101,7 +101,7 @@ export const raz = {
         'Spring Boot',
         'Trunk-based Development',
         'Test-Driven Development',
-        'Testing',
+        'Testing Practices',
         'Refactoring',
       ],
     },
@@ -211,55 +211,783 @@ export const raz = {
   ],
   skills: [
     {
-      name: 'Incubating',
-      level: '95',
-      keywords: [
-        'Managing Subordinates: At [pied](./) piper we strived to meet all of our incubator needs',
-        'Evicting Jian Yang',
-      ],
+        "name": "AWS",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
     },
     {
-      name: 'Hex Arithmetic',
-      level: '90',
-      keywords: ['9 * F = fleventy-five'],
+        "name": "Android",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
     },
     {
-      name: 'Web Development',
-      level: '37',
-      keywords: ['HTML', 'CSS', 'Javascript'],
+        "name": "Angular (version 2+) ",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
     },
     {
-      name: 'Style',
-      level: '60',
-      keywords: [
-        "Clothes: black turtlenecks to maximize 'jobbiness'",
-        'Kimonos: To assert power and relay awesomeness',
-      ],
+        "name": "Ansible",
+        "level": 40,
+        "keywords": [
+            "Technical"
+        ]
     },
     {
-      name: 'Negotiation',
-      level: '45',
-      keywords: [
-        'Aggressive: Aggressive negotiation is they key to getting what you want',
-      ],
+        "name": "AppDynamics",
+        "level": 40,
+        "keywords": [
+            "Technical"
+        ]
     },
     {
-      name: 'Making Mistakes',
-      level: '30',
-      keywords: ['1993: I made a mistake by thinking that I made a mistake'],
+        "name": "Azure",
+        "level": 40,
+        "keywords": [
+            "Technical"
+        ]
     },
     {
-      name: 'Being Lame',
-      level: '15',
-      keywords: [
-        'Jian Yang: This only happens when listening to his recipe for octupu',
-      ],
+        "name": "Bootstrap ",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
     },
     {
-      name: 'Losing',
-      level: '5',
-      keywords: ['Kickball: I lost a kickball game once in elementary school'],
+        "name": "Build Pipelines",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
     },
+    {
+        "name": "C#",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "C++",
+        "level": 40,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "CI",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "CSS",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Cassandra",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Chef",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Cloud Foundry",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Docker",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Google Compute Engine/Cloud",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Groovy",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Grunt",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Gulp",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "HTML",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Hadoop",
+        "level": 20,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Java",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Javascript",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Javascript visualization libraries (D3.js)",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Kotlin",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Less",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Machine Learning",
+        "level": 40,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Microsoft SQL ",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Mobile Web",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Mongo",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "MySQL",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "New Relic",
+        "level": 40,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Node JS",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Open Stack",
+        "level": 40,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Oracle",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Other Functional",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "PHP",
+        "level": 40,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Postgres",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Processing",
+        "level": 40,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Puppet",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Python",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Rabbit MQ",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "React",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "React Native",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Ruby",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "SQL",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Scala",
+        "level": 40,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Splunk",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Unix/Linux",
+        "level": 80,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "Webpack",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "iOS",
+        "level": 60,
+        "keywords": [
+            "Technical"
+        ]
+    },
+    {
+        "name": "C# application development",
+        "level": 80,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "C# test automation",
+        "level": 80,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Capybara",
+        "level": 60,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Cucumber",
+        "level": 60,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Go",
+        "level": 40,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Groovy application development",
+        "level": 40,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Groovy test automation",
+        "level": 40,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Java application development",
+        "level": 80,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Java test automation",
+        "level": 80,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "JavaScript application development",
+        "level": 80,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Jbehave",
+        "level": 60,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Jenkins",
+        "level": 80,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Load testing",
+        "level": 60,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Manual/Exploratory Testing",
+        "level": 60,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Mobile Development (Android / iOS / PhoneGap)",
+        "level": 80,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Mobile test automation - Android",
+        "level": 40,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Performance testing",
+        "level": 40,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Requirements Analysis",
+        "level": 60,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Ruby application development",
+        "level": 80,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Ruby on Rails",
+        "level": 80,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Ruby test automation",
+        "level": 60,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Security testing",
+        "level": 40,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Selenium-webdriver",
+        "level": 60,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "TeamCity",
+        "level": 80,
+        "keywords": [
+            "Testing"
+        ]
+    },
+    {
+        "name": "Communication",
+        "level": 80,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Executive Advisory",
+        "level": 60,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Facilitation",
+        "level": 60,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Influence",
+        "level": 80,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Innovating",
+        "level": 80,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Negotiation",
+        "level": 60,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Organisational Transformation",
+        "level": 60,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Planning",
+        "level": 60,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Presenting",
+        "level": 80,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Problem solving",
+        "level": 80,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Questioning",
+        "level": 80,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Relationship building",
+        "level": 60,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Strategy",
+        "level": 60,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Synthesis",
+        "level": 80,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "System thinking",
+        "level": 60,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Teaching",
+        "level": 80,
+        "keywords": [
+            "Consulting"
+        ]
+    },
+    {
+        "name": "Computers & Electronics",
+        "level": 80,
+        "keywords": [
+            "Domain"
+        ]
+    },
+    {
+        "name": "Engineering, Research & Development",
+        "level": 60,
+        "keywords": [
+            "Domain"
+        ]
+    },
+    {
+        "name": "Financial Services & Insurance",
+        "level": 80,
+        "keywords": [
+            "Domain"
+        ]
+    },
+    {
+        "name": "Government",
+        "level": 60,
+        "keywords": [
+            "Domain"
+        ]
+    },
+    {
+        "name": "Other",
+        "level": 60,
+        "keywords": [
+            "Domain"
+        ]
+    },
+    {
+        "name": "Software & Internet",
+        "level": 80,
+        "keywords": [
+            "Domain"
+        ]
+    },
+    {
+        "name": "Analytics",
+        "level": 40,
+        "keywords": [
+            "BA & XD"
+        ]
+    },
+    {
+        "name": "Business Vision & Context Analysis ",
+        "level": 40,
+        "keywords": [
+            "BA & XD"
+        ]
+    },
+    {
+        "name": "Concept Generation",
+        "level": 40,
+        "keywords": [
+            "BA & XD"
+        ]
+    },
+    {
+        "name": "Storytelling & Storyboarding",
+        "level": 60,
+        "keywords": [
+            "BA & XD"
+        ]
+    },
+    {
+        "name": "UI Development",
+        "level": 60,
+        "keywords": [
+            "BA & XD"
+        ]
+    },
+    {
+        "name": "Usability Research",
+        "level": 40,
+        "keywords": [
+            "BA & XD"
+        ]
+    },
+    {
+        "name": "Usability Testing",
+        "level": 40,
+        "keywords": [
+            "BA & XD"
+        ]
+    },
+    {
+        "name": "User Research & Customer Analysis",
+        "level": 40,
+        "keywords": [
+            "BA & XD"
+        ]
+    },
+    {
+        "name": "Visual Design",
+        "level": 60,
+        "keywords": [
+            "BA & XD"
+        ]
+    },
+    {
+        "name": "Arabic",
+        "level": 40,
+        "keywords": [
+            "Language"
+        ]
+    },
+    {
+        "name": "French",
+        "level": 40,
+        "keywords": [
+            "Language"
+        ]
+    },
+    {
+        "name": "Hindi",
+        "level": 80,
+        "keywords": [
+            "Language"
+        ]
+    },
+    {
+        "name": "Spanish",
+        "level": 40,
+        "keywords": [
+            "Language"
+        ]
+    }
+
   ],
   languages: [
     {
