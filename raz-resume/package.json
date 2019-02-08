@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.4.0",
+    "react": "^15.0.0",
     "react-awesome-resume": "^0.1.0",
-    "react-dom": "^16.4.0",
+    "react-dom": "^15.0.0",
     "react-scripts": "1.1.4",
     "semantic-ui-css": "^2.3.1"
   },
