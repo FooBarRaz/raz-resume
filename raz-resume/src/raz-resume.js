@@ -4,14 +4,14 @@ export const raz = {
     basics: {
         name: 'Mehraz Ali',
         label: 'Developer, Technologist, and Maker',
-        picture: './erlich-bachman.jpg',
+        picture: './profile.png',
         email: 'mehraz.ali@live.com',
         phone: '1 (404) 889-6729',
         website: 'http://mehrazali.com',
-        summary: `My name is Mehraz, but you can call me Raz. My mission is simple, but ambitious -- I aim to rid the world of 💩 software. 
+        summary: `You can just call me Raz. My mission is simple, but ambitious -- I aim to rid the world of 💩 software. 
         As a consultant, I work to enable teams to achieve success through presentation, coaching, and demonstration.
         As a software developer, I seek out interesting technological problems to solve, and work to implement the most simple, yet elegant solutions for them.
-        I am guided by 3 principles -- great products must be both delightful to use and delightful to build, complexity must be killed with fire, and that pragmatism trumps idealism`,
+        I am guided by 3 principles -- great products must be both delightful to use and delightful to build, complexity must be killed with fire, and pragmatism trumps idealism`,
         location: {
             address: '4591 Sims Ct',
             postalCode: '30084',
@@ -130,8 +130,14 @@ export const raz = {
             summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
             highlights: [
                 'Legacy',
+                'Java',
                 'ETL',
+                'ActiveMQ',
                 'Production Support',
+                'Tibco ActiveMatrix/EMS',
+                'Informatica',
+                'Oracle SQL',
+                'AS/400',
             ],
         },
         {
@@ -154,6 +160,12 @@ export const raz = {
             endDate: '2015-08-01',
             summary: 'Building a Organization Management application',
             highlights: [
+                'C#',
+                '.NET MVC',
+                'KnockoutJs',
+                'D3.js',
+                'Bootstrap',
+                'NUnit',
                 'Greenfield',
                 'Full-stack',
                 'Cucumber',
@@ -965,17 +977,35 @@ export const raz = {
     ],
     interests: [
         {
-            name: 'Wildlife',
+            name: 'Music',
             keywords: [
-                'Ferrets: More of a hatred than an interest, ferrets are  detrimental to society and any neighbors who would dare to keep them among people are evil',
-                'California Varmint Laws: California penal code says that is is illegal to keep ferrets',
+                'Playing: I play various stringed instruments, from acoustic/electric guitar, to bass, to mandolin',
             ],
         },
         {
-            name: 'Japanese Culture',
+            name: 'Virtual Reality',
             keywords: [
-                '切腹: the act of falling on ones sword in shame',
-                'おみやげ: giving of gifts to incubees and other people who have earned my respect',
+                'Vive/Gear VR exploration',
+            ],
+        },
+        {
+            name: 'Soccer',
+            keywords: [
+                'PL: Manchester City',
+                'MLS: Atlanta United',
+                'La Liga: Real Madrid',
+            ],
+        },
+        {
+            name: 'Video Games',
+            keywords: [
+                'PC/PS4',
+            ],
+        },
+        {
+            name: 'Off-Roading',
+            keywords: [
+                'I love my Jeep',
             ],
         },
     ],
