@@ -8,13 +8,12 @@ export const raz = {
         email: 'mehraz.ali@live.com',
         phone: '1 (404) 889-6729',
         website: 'http://mehrazali.com',
-        summary: `You can just call me Raz. My mission is ambitious, but simple -- I aim to rid the world of 💩 software. 
-        \n
-        As a consultant, I work to enable teams to achieve success through presentation, coaching, and demonstration.
-        \n
+        summary: `
+        You can just call me Raz. My mission is ambitious, but simple -- I aim to rid the world of 💩 software. 
+        I am guided by 3 principles -- great products must be both delightful to use and delightful to build, complexity must be killed with fire, and pragmatism trumps idealism,
         As a software developer, I seek out interesting technological problems to solve, and work to implement the most simple, yet elegant solutions for them.
-        \n
-        I am guided by 3 principles -- great products must be both delightful to use and delightful to build, complexity must be killed with fire, and pragmatism trumps idealism`,
+        As a consultant, I work to enable teams to achieve success through presentation, coaching, and demonstration, while balancing the needs of the delivery team with the needs of business.
+        `,
         location: {
             address: '4591 Sims Ct',
             postalCode: '30084',
@@ -41,7 +40,7 @@ export const raz = {
             position: 'CXO',
             website: 'http://kinexys.com',
             startDate: '2017-01-01',
-            summary: 'I built this.',
+            summary: 'This is my company. I built this.',
             highlights: [
                 'Started the company',
                 'Took Shotcaller from inception to production',
@@ -68,12 +67,21 @@ export const raz = {
             highlights: [
                 'Greenfield',
                 'Stream lead',
-                'Took product from code-zero to production',
+                'Code-zero to prod',
+                'Production Support',
                 'Microservices',
                 'Pivotal Cloud Foundry',
                 'Distributed Team',
                 'Feature Toggles',
-                'CLI',
+                'CLI development (Commander)',
+                'Angular2/4/6/7',
+                'Rxjs / NgRx',
+                'Java',
+                'Spring Boot',
+                'Spring CloudStream',
+                'Spring Batch',
+                'RabbitMQ',
+                'HATEOAS',
             ],
         },
         {
@@ -87,6 +95,8 @@ export const raz = {
                 'Cassandra',
                 'Security',
                 'Distributed Team',
+                'Java',
+                'Spring Config Server',
             ],
         },
         {
@@ -99,6 +109,14 @@ export const raz = {
                 'Legacy',
                 'Microservices',
                 'CQRS/Event Sourcing',
+                'Production Support',
+                'CLI development (Thor, bash)',
+                'Java',
+                'Ruby',
+                'Golang',
+                'Spring Boot',
+                'Spring Cloud Dataflow',
+                'Kafka',
                 'Axon',
                 'Distributed Team',
             ],
