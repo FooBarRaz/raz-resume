@@ -10,7 +10,7 @@ export const raz = {
         website: 'http://mehrazali.com',
         summary: `
         You can just call me Raz. My mission is ambitious, but simple -- I aim to rid the world of 💩 software. 
-        I am guided by 3 principles -- great products must be both delightful to use and delightful to build, complexity must be killed with fire, and pragmatism trumps idealism,
+        I am guided by 3 principles -- great products must be both delightful to use and delightful to build, complexity is like fire and should be treated accordingly, and pragmatism trumps idealism,
         As a software developer, I seek out interesting technological problems to solve, and work to implement the most simple, yet elegant solutions for them.
         As a consultant, I work to enable teams to achieve success through presentation, coaching, and demonstration, while balancing the needs of the delivery team with the needs of business.
         `,
@@ -40,7 +40,7 @@ export const raz = {
             position: 'CXO',
             website: 'http://kinexys.com',
             startDate: '2017-01-01',
-            summary: 'This is my company. I built this.',
+            summary: 'I founded this company as a legal entity around my passion projects. Watch this space for updates.',
             highlights: [
                 'Started the company',
                 'Took Shotcaller from inception to production',
