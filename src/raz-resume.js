@@ -1042,24 +1042,7 @@ export const raz = {
             ],
         },
     ],
-    references: [
-        {
-            name: 'Jian Yang',
-            reference: "I do not respect you. You're not any kind of investor, you own nothing",
-        },
-        {
-            name: 'Jian Yang',
-            reference: "Erlich Bachman...This is you as and old man. I'm ugly and I'm dead. Alone",
-        },
-        {
-            name: 'CJ Cantwell',
-            reference: 'Bachman recently founded venture capital firm Bachmanity Capital with tech icon (soon to be legend, I’m sure) Nelson “Big Head” Bighetti, and the pair hosted a lavish launch event, aptly titled “Bachmanity Insanity.” The party, like Bachman, was loud, extravagant and a bit of a farce. It was a luau. At Alcatraz. One for which Bachman chose to pay for all liquor at retail cost, and one where he lost a giant fiberglass Tiki head at the bottom of the bay. The expenses for fire dancers, flair bartenders and exotic caterers totaled over $1 million. Bachman maintains these were “practical costs for any groundbreaking business.”',
-        },
-        {
-            name: 'CJ Cantwell',
-            reference: 'Bachmanity burned too bright, like the custom lighting at its luau and, like that lighting, the bulb burned out.',
-        },
-    ],
+    references: [ ],
 };
 
 export const locationType = PropTypes.shape({
