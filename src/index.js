@@ -8,14 +8,9 @@ import ReactDOM from 'react-dom';
 import { raz, resumeType } from './raz-resume';
 import  Resume from 'react-awesome-resume';
 
-// const themes = {
-//   default: Default,
-// };
-
-ReactDOM.render(
-  <Resume jsonResume={raz} theme="default" />,
-  document.getElementById("root")
-);
+const themes = {
+  default: Default,
+};
 
 Resume.defaultProps = {
   jsonResume: raz,
@@ -28,5 +23,10 @@ Resume.propTypes = {
   theme: PropTypes.string,
   inline: PropTypes.bool,
 };
+
+ReactDOM.render(
+  <Resume jsonResume={raz} theme="default" />,
+  document.getElementById("root")
+);
 
 export default Resume;

@@ -219,24 +219,29 @@ export const raz = {
             position: 'Volunteer',
             website: 'https://www.zipcodewilmington.com/',
             startDate: '2017-03',
+            summary: null,
+            highlights: [],
         },
         {
             organization: 'Digital Youth Founders',
             position: 'Volunteer',
             website: 'http://organization.com/',
+            summary: null,
+            highlights: [],
         },
         {
             organization: 'Trees Atlanta',
             position: 'Volunteer',
             website: 'http://organization.com/',
             summary: 'Planting new trees to replace ones lost to urban development',
+            highlights: [],
         },
         {
             organization: 'Open Hand',
             position: 'Volunteer',
             website: 'http://organization.com/',
             summary: 'Delivering food and groceries to people with disabilities and chronic ilnesses.',
-            highlights: ['1,000 pounds of food donations', 'Event of the Century'],
+            highlights: ['1,000 pounds of food donations'],
         },
     ],
     education: [
@@ -247,6 +252,7 @@ export const raz = {
             startDate: '2005-08',
             endDate: '2006-01',
             gpa: '4.30',
+            courses: [],
         },
         {
             institution: 'University of Georgia',
@@ -255,6 +261,7 @@ export const raz = {
             startDate: '2003-08',
             endDate: '2004-05',
             gpa: '3.2 in Major (Dean\'s List)',
+            courses: [],
         }
     ],
     skills: [
@@ -1043,109 +1050,111 @@ export const raz = {
         },
     ],
     references: [ ],
+    awards: [],
+    publications: []
 };
 
 export const locationType = PropTypes.shape({
-    address: PropTypes.string,
-    postalCode: PropTypes.string,
-    city: PropTypes.string,
-    countryCode: PropTypes.string,
-    region: PropTypes.string,
+  address: PropTypes.string,
+  postalCode: PropTypes.string,
+  city: PropTypes.string,
+  countryCode: PropTypes.string,
+  region: PropTypes.string,
 }).isRequired;
 
 export const profileType = PropTypes.shape({
-    network: PropTypes.string,
-    username: PropTypes.string,
-    url: PropTypes.string,
+  network: PropTypes.string,
+  username: PropTypes.string,
+  url: PropTypes.string,
 }).isRequired;
 
 export const basicsType = PropTypes.shape({
-    name: PropTypes.string,
-    label: PropTypes.string,
-    picture: PropTypes.string,
-    email: PropTypes.string,
-    phone: PropTypes.string,
-    website: PropTypes.string,
-    summary: PropTypes.string,
-    location: PropTypes.shape(locationType),
-    profiles: PropTypes.arrayOf(profileType),
+  name: PropTypes.string,
+  label: PropTypes.string,
+  picture: PropTypes.string,
+  email: PropTypes.string,
+  phone: PropTypes.string,
+  website: PropTypes.string,
+  summary: PropTypes.string,
+  location: PropTypes.shape(locationType),
+  profiles: PropTypes.arrayOf(profileType),
 }).isRequired;
 
 export const workType = PropTypes.arrayOf(PropTypes.shape({
-    company: PropTypes.string,
-    position: PropTypes.string,
-    website: PropTypes.string,
-    startDate: PropTypes.string,
-    endDate: PropTypes.string,
-    summary: PropTypes.string,
-    highlights: PropTypes.arrayOf(PropTypes.string),
+  company: PropTypes.string,
+  position: PropTypes.string,
+  website: PropTypes.string,
+  startDate: PropTypes.string,
+  endDate: PropTypes.string,
+  summary: PropTypes.string,
+  highlights: PropTypes.arrayOf(PropTypes.string),
 })).isRequired;
 
 export const volunteerType = PropTypes.arrayOf(PropTypes.shape({
-    organization: PropTypes.string,
-    position: PropTypes.string,
-    website: PropTypes.string,
-    startDate: PropTypes.string,
-    endDate: PropTypes.string,
-    summary: PropTypes.string,
-    highlights: PropTypes.arrayOf(PropTypes.string),
+  organization: PropTypes.string,
+  position: PropTypes.string,
+  website: PropTypes.string,
+  startDate: PropTypes.string,
+  endDate: PropTypes.string,
+  summary: PropTypes.string,
+  highlights: PropTypes.arrayOf(PropTypes.string),
 })).isRequired;
 
 export const educationType = PropTypes.arrayOf(PropTypes.shape({
-    institution: PropTypes.string,
-    area: PropTypes.string,
-    studyType: PropTypes.string,
-    startDate: PropTypes.string,
-    endDate: PropTypes.string,
-    gpa: PropTypes.string,
-    courses: PropTypes.arrayOf(PropTypes.string),
+  institution: PropTypes.string,
+  area: PropTypes.string,
+  studyType: PropTypes.string,
+  startDate: PropTypes.string,
+  endDate: PropTypes.string,
+  gpa: PropTypes.string,
+  courses: PropTypes.arrayOf(PropTypes.string),
 })).isRequired;
 
 export const awardsType = PropTypes.arrayOf(PropTypes.shape({
-    title: PropTypes.string,
-    date: PropTypes.string,
-    awarder: PropTypes.string,
-    summary: PropTypes.string,
+  title: PropTypes.string,
+  date: PropTypes.string,
+  awarder: PropTypes.string,
+  summary: PropTypes.string,
 })).isRequired;
 
 export const publicationsType = PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    publisher: PropTypes.string,
-    releaseDate: PropTypes.string,
-    website: PropTypes.string,
-    summary: PropTypes.string,
+  name: PropTypes.string,
+  publisher: PropTypes.string,
+  releaseDate: PropTypes.string,
+  website: PropTypes.string,
+  summary: PropTypes.string,
 })).isRequired;
 
 export const skillsType = PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    level: PropTypes.string,
-    keywords: PropTypes.arrayOf(PropTypes.string),
+  name: PropTypes.string,
+  level: PropTypes.number,
+  keywords: PropTypes.arrayOf(PropTypes.string),
 })).isRequired;
 
 export const languagesType = PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    level: PropTypes.string,
+  name: PropTypes.string,
+  level: PropTypes.string,
 })).isRequired;
 
 export const interestsType = PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    keywords: PropTypes.arrayOf(PropTypes.string),
+  name: PropTypes.string,
+  keywords: PropTypes.arrayOf(PropTypes.string),
 })).isRequired;
 
 export const referencesType = PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    reference: PropTypes.string,
+  name: PropTypes.string,
+  reference: PropTypes.string,
 })).isRequired;
 
 export const resumeType = PropTypes.shape({
-    basics: basicsType,
-    work: workType,
-    volunteer: volunteerType,
-    education: educationType,
-    awards: awardsType,
-    publications: publicationsType,
-    skills: skillsType,
-    languages: languagesType,
-    interests: interestsType,
-    references: referencesType,
+  basics: basicsType,
+  work: workType,
+  volunteer: volunteerType,
+  education: educationType,
+  awards: awardsType,
+  publications: publicationsType,
+  skills: skillsType,
+  languages: languagesType,
+  interests: interestsType,
+  references: referencesType,
 });
