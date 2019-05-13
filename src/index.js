@@ -8,10 +8,6 @@ import ReactDOM from 'react-dom';
 import { raz, resumeType } from './raz-resume';
 import  Resume from 'react-awesome-resume';
 
-const themes = {
-  default: Default,
-};
-
 Resume.defaultProps = {
   jsonResume: raz,
   theme: 'default',
