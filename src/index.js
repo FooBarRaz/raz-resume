@@ -1,12 +1,12 @@
-import 'semantic-ui-css/semantic.min.css';
-import 'semantic-ui-css/themes/default/assets/fonts/icons.ttf';
-
 import PropTypes from 'prop-types';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { raz, resumeType } from './raz-resume';
+
 import  Resume from 'react-awesome-resume';
+import 'semantic-ui-css/semantic.min.css';
+
 
 Resume.defaultProps = {
   jsonResume: raz,
