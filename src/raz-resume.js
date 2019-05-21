@@ -1012,12 +1012,28 @@ export const raz = {
             level: 'Native speaker',
         },
         {
-            name: 'Hexadecimal',
-            level: 'Veteran',
+            name: 'Hindi',
+            level: 'Fluent',
+        },
+        {
+            name: 'Urdu',
+            level: 'Fluent',
+        },
+        {
+            name: 'Arabic',
+            level: 'Basic',
         },
         {
             name: 'Spanish',
-            level: 'Intermediate',
+            level: 'Basic',
+        },
+        {
+            name: 'French',
+            level: 'Basic',
+        },
+        {
+            name: 'German',
+            level: 'Basic',
         },
     ],
     interests: [
