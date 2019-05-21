@@ -37,7 +37,7 @@ export const raz = {
     work: [
         {
             company: 'Kinexys',
-            position: 'CXO',
+            position: 'Founder/CXO',
             website: 'http://kinexys.com',
             startDate: '2017-01-01',
             summary: 'I founded this company as a legal entity around my passion projects. Watch this space for updates.',
@@ -61,9 +61,12 @@ export const raz = {
         },
         {
             company: 'Business Development/Analytics Company in Cincinnati, OH',
-            position: 'Sr. Software Engineer',
+            position: 'Technical Lead/Sr. Software Engineer',
             startDate: '2017-10-01',
-            summary: 'Building a platform for data-driven business insights/analytics',
+            summary: `Worked with a Business Analytics company to help them build their flagship analytics platform from a greenfield.
+             The goal of this project was to develop and deliver an application that would provide vendors for a major retailer with actionable insights based on their retail sales data.
+             I helped lead a team of 12 developers to build a full-stack application, with an Angular(6/7) frontend and a cluster of SpringBoot-powered Java microservices on the backend.
+             Through the course of the project, I worked on training and coaching the team on development and testing best practices, as well as enabling them to work location-independently with a remote team in Deerfield, IL and other remote members across the country.`,
             highlights: [
                 'Greenfield',
                 'Stream lead',
@@ -89,7 +92,9 @@ export const raz = {
             position: 'Sr. Software Engineer',
             startDate: '2017-06-01',
             endDate: '2017-10-01',
-            summary: 'Building a security / authentication challenge application',
+            summary: `I worked with a Consumer Credit Reporting Agency to build a system to analyze their authentication systems for risk indicators.
+             The goal of this project was to be able to track access patterns across a number of factual, situational, and behavioral metrics in order to build a risk profile of a user attempting to log in to the system to predict and raise alerts around fraudulent activity.
+             I was part of a team of 8 developers who worked to stand up the backend infrastructure for that system using a variety of tools including Java, CassandraDB, Apache Avro, Apache Kafka, and various clickstream aggregators.`,
             highlights: [
                 'Greenfield',
                 'Cassandra',
@@ -104,7 +109,11 @@ export const raz = {
             position: 'Sr. Software Engineer',
             startDate: '2017-01-01',
             endDate: '2017-06-01',
-            summary: 'Building, maintaining, and supporting a core business platform for credit and payment services',
+            summary: `I worked for a credit card and payment services provider on a number of engagements, that involved building, maintaining, and supporting their core business services platform in production.
+            This was a massive, event-sourced system comprised of dozens of microservices, serving tens of thousands of users on a daily basis. 
+            I was involved in a variety of initiatives there, ranging from production support, to inceptions for new product offerings, all the way to experimental research efforts.
+            In these efforts, I worked with a variety of technologies including Spring Cloud Stream, Kafka, and the Axon event sourcing framework. 
+            I was also instrumental in helping develop a command line tool for developers to automate mundane development tasks.`,
             highlights: [
                 'Legacy',
                 'Microservices',
@@ -123,13 +132,16 @@ export const raz = {
         },
         {
             company: 'Mortgage Loan and Financial Services Company in Reston, VA',
-            position: 'Sr. Developer',
-            startDate: '2016-09-01',
+            position: 'Technical Lead/Sr. Developer',
+            startDate: '2016-06-01',
             endDate: '2016-12-01',
-            summary: 'Coaching five scrum teams on Agile engineering practices',
+            summary: `I worked on two different projects for a Mortgage Loan and Financial Services company in Reston, VA.
+             The first one involved building a testing framework for their data engineers to validate their ETL jobs.
+             This was an ambitious undertaking led by myself, and the end result was a series of custom-built tools and processes that resulted in an over 50% reduction in time spent testing new ETL processes/jobs. 
+             Following that delivery effort, I transitioned over to another project where I helped coach 5 different scrum teams on Agile development practices through pairing, structured learning and presentations, as they worked to build out a next-generation offering to replace a legacy loan delivery system.
+`,
             highlights: [
                 'Greenfield',
-                'Legacy',
                 'Coaching and Enablement',
                 'AWS',
                 'Angular',
@@ -139,16 +151,6 @@ export const raz = {
                 'Test-Driven Development',
                 'Testing Practices',
                 'Refactoring',
-            ],
-        },
-        {
-            company: 'Mortgage Loan and Financial Services Company in Reston, VA',
-            position: 'Technical Lead',
-            startDate: '2016-06-01',
-            endDate: '2016-09-01',
-            summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-            highlights: [
-                'Legacy',
                 'Data Testing Framework',
                 'Legacy System',
                 'ETL',
@@ -160,7 +162,9 @@ export const raz = {
             position: 'Sr. Software Engineer',
             startDate: '2015-03-01',
             endDate: '2016-06-01',
-            summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
+            summary: `I worked for an Automobile Auction Company where I and a team of 5-10 other developers worked on enhancing the capabilities of a legacy messaging platform.
+             This involved delivery work with regards to creating and deploying some new services concerned with financial settlements for auctioned vehicles.
+             During my time there, I also worked on coaching client developers on best practices related to working with legacy systems, including testing, automation, and refactoring.`,
             highlights: [
                 'Legacy',
                 'Java',
@@ -184,6 +188,7 @@ export const raz = {
                 'Mobile',
                 'Recommendation Engine',
                 'Full-stack',
+                'Ruby on Rails',
             ],
         },
         {
