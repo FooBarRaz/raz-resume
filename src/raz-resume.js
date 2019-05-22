@@ -182,7 +182,7 @@ export const raz = {
             position: 'Software Developer',
             startDate: '2014-09-01',
             endDate: '2015-02-01',
-            summary: 'Building a mobile app and product recommendation engine',
+            summary: 'I worked on building a mobile app with product recommendation engine for a company that manufactures cooking appliances.',
             highlights: [
                 'Greenfield',
                 'Mobile',
@@ -196,7 +196,7 @@ export const raz = {
             position: 'Software Developer',
             startDate: '2014-03-01',
             endDate: '2015-08-01',
-            summary: 'Building a Organization Management application',
+            summary: 'I worked on developing an organizational management and charting application for a company that makes HR Software',
             highlights: [
                 'C#',
                 '.NET MVC',
@@ -214,8 +214,13 @@ export const raz = {
             position: 'Software Engineer',
             startDate: '2011-12',
             endDate: '2014-02',
-            summary: '',
-            highlights: [],
+            summary: 'Worked on building a desktop application for managing video sources and interfacing with proprietary hardware, amongst several other things.',
+            highlights: [
+                'C#',
+                'WPF',
+                'Video Signal Processing',
+                'Full-stack'
+            ],
         },
     ],
     volunteer: [
@@ -225,14 +230,14 @@ export const raz = {
             website: 'https://www.zipcodewilmington.com/',
             startDate: '2017-03',
             summary: null,
-            highlights: [],
+            highlights: ['Helping aspring software developers work on group projects, and prepare for interviews with potential employers'],
         },
         {
             organization: 'Digital Youth Founders',
             position: 'Volunteer',
             website: 'http://organization.com/',
             summary: null,
-            highlights: [],
+            highlights: ['Helping middle and high-school kids learn to build software.'],
         },
         {
             organization: 'Trees Atlanta',
@@ -1064,9 +1069,10 @@ export const raz = {
             ],
         },
         {
-            name: 'Off-Roading',
+            name: 'Outdoors',
             keywords: [
-                'I love my Jeep',
+                'Off-Roading: I love my Jeep',
+                'Kayaking',
             ],
         },
     ],
