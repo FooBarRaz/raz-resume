@@ -36,6 +36,28 @@ export const raz = {
     },
     work: [
         {
+            company: 'ThoughtWorks',
+            position: 'Lead Developer',
+            website: 'http://thoughtworks.com',
+            startDate: '2014-02-01',
+            summary: 'Working as consultant for a multinational IT Services company on a wide variety of client projects across a range of industries. Projects involved everything from coaching and enablement, to delivery, and everything in between.',
+            highlights: [
+                'Consulting',
+                'Agile',
+                'Lean and Continious Delivery',
+                'Test-Driven Development',
+                'Pair Programming',
+                'Education and Mentorship',
+                'Clean Coding Practices',
+                'Architecture and Design',
+                'Workshops',
+                'Process Improvement',
+                'Organizational Transformation',
+                'Conlfict Management',
+                'Relationship Building',
+            ],
+        },
+        {
             company: 'Kinexys',
             position: 'Founder/CXO',
             website: 'http://kinexys.com',
