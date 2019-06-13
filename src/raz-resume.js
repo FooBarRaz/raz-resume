@@ -7,7 +7,7 @@ export const raz = {
         picture: './profile.png',
         email: 'mehraz.ali@live.com',
         phone: '1 (404) 889-6729',
-        website: 'http://mehrazali.com',
+        website: 'https://www.mehrazali.com',
         summary: `
         You can just call me Raz. My mission is ambitious, but simple -- I aim to rid the world of 💩 software. 
         I am guided by 3 principles -- great products must be both delightful to use and delightful to build, complexity is like fire and should be treated accordingly, and pragmatism trumps idealism,
@@ -48,12 +48,13 @@ export const raz = {
                 'Test-Driven Development',
                 'Pair Programming',
                 'Education and Mentorship',
+                'Public Speaking',
                 'Clean Coding Practices',
                 'Architecture and Design',
                 'Workshops',
                 'Process Improvement',
                 'Organizational Transformation',
-                'Conlfict Management',
+                'Conflict Management',
                 'Relationship Building',
             ],
         },
