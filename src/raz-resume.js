@@ -37,9 +37,10 @@ export const raz = {
     work: [
         {
             company: 'ThoughtWorks',
-            position: 'Lead Developer',
+            position: 'Lead Developer, Consultant (prev: Senior Developer)',
             website: 'http://thoughtworks.com',
             startDate: '2014-02-01',
+            endDate: 'Present',
             summary: 'Working as consultant for a multinational IT Services company on a wide variety of client projects across a range of industries. Projects involved everything from coaching and enablement, to delivery, and everything in between.',
             highlights: [
                 'Consulting',
@@ -63,6 +64,7 @@ export const raz = {
             position: 'Founder/CXO',
             website: 'http://kinexys.com',
             startDate: '2017-01-01',
+            endDate: 'Present',
             summary: 'I founded this company as a legal entity around my passion projects. Watch this space for updates.',
             highlights: [
                 'Started the company',
@@ -86,6 +88,7 @@ export const raz = {
             company: 'Business Development/Analytics Company in Cincinnati, OH',
             position: 'Technical Lead/Sr. Software Engineer',
             startDate: '2017-10-01',
+            endDate: '2019-04-30',
             summary: `Worked with a Business Analytics company to help them build their flagship analytics platform from a greenfield.
              The goal of this project was to develop and deliver an application that would provide vendors for a major retailer with actionable insights based on their retail sales data.
              I helped lead a team of 12 developers to build a full-stack application, with an Angular(6/7) frontend and a cluster of SpringBoot-powered Java microservices on the backend.
