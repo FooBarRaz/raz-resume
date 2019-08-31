@@ -25,7 +25,7 @@ export const raz = {
             {
                 network: 'GitHub',
                 username: 'fakeplasticdroid',
-                url: 'https://www.github.com.com/fakeplasticdroid',
+                url: 'https://www.github.com/fakeplasticdroid',
             },
             {
                 network: 'Twitter',
