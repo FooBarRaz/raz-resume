@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { render } from 'react-snapshot'
 
 import { raz, resumeType } from './raz-resume';
 
@@ -20,7 +21,7 @@ Resume.propTypes = {
   inline: PropTypes.bool,
 };
 
-ReactDOM.render(
+render(
   <Resume jsonResume={raz} theme="default" />,
   document.getElementById("root")
 );
