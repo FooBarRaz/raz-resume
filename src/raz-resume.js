@@ -9,10 +9,11 @@ export const raz = {
         phone: '1 (404) 889-6729',
         website: 'https://www.mehrazali.com',
         summary: `
-        You can just call me Raz. My mission is ambitious, but simple -- I aim to rid the world of 💩 software. 
+        You can just call me Raz. I'm a technologist on a mission to eradicate 💩 software. To that end, I bring to bear over 10 years of industry experience comprising everything from discovering requirements, building applications, architecting systems, leading teams, consulting on projects, and mentoring other developers.
+        As a software developer, I seek out interesting technological problems to solve, and work to implement simple, yet elegant solutions for them.
+        As a consultant, I work to enable teams to achieve success through organization, coaching, and collaboration, while balancing the needs of the delivery team with the needs of business/clients.
+        As a leader, I'm dedicated to meeting individuals where they're at, helping them help themselves, and working with them to unlock their potential. 
         I am guided by 3 principles -- great products must be both delightful to use and delightful to build, complexity is like fire and should be treated accordingly, and pragmatism trumps idealism,
-        As a software developer, I seek out interesting technological problems to solve, and work to implement the most simple, yet elegant solutions for them.
-        As a consultant, I work to enable teams to achieve success through presentation, coaching, and demonstration, while balancing the needs of the delivery team with the needs of business.
         `,
         location: {
             address: '4591 Sims Ct',
@@ -24,28 +25,57 @@ export const raz = {
         profiles: [
             {
                 network: 'GitHub',
-                username: 'fakeplasticdroid',
-                url: 'https://www.github.com/fakeplasticdroid',
+                username: 'FooBarRaz',
+                url: 'https://www.github.com/FooBarRaz',
             },
             {
                 network: 'Twitter',
                 username: 'fakeplasticdroid',
                 url: 'https://twitter.com/fakeplasticdroid',
             },
+            {
+                network: 'LinkedIn',
+                username: 'mehraz-ali',
+                url: 'https://www.linkedin.com/in/mehraz-ali-b42b8412/',
+            },
         ],
     },
     work: [
         {
-            company: 'ThoughtWorks',
-            position: 'Lead Developer, Consultant (prev: Senior Developer)',
-            website: 'http://thoughtworks.com',
-            startDate: '2014-02-01',
+            company: 'Slalom Build',
+            position: 'Solution Principal in Software Engineering (prev: Solution Architect in SE)',
+            website: 'http://slalombuild.com',
+            startDate: '2019-09-16',
             endDate: 'Present',
             summary: 'Working as consultant for a multinational IT Services company on a wide variety of client projects across a range of industries. Projects involved everything from coaching and enablement, to delivery, and everything in between.',
             highlights: [
                 'Consulting',
                 'Agile',
-                'Lean and Continious Delivery',
+                'Lean and Continuous Delivery',
+                'Test-Driven Development',
+                'Pair Programming',
+                'Education and Mentorship',
+                'Public Speaking',
+                'Clean Coding Practices',
+                'Architecture and Design',
+                'Workshops',
+                'Process Improvement',
+                'Organizational Transformation',
+                'Conflict Management',
+                'Relationship Building',
+            ],
+        },
+        {
+            company: 'ThoughtWorks',
+            position: 'Lead Developer, Consultant (prev: Senior Developer)',
+            website: 'http://thoughtworks.com',
+            startDate: '2014-02-01',
+            endDate: '2019-09-13',
+            summary: 'Working as consultant for a multinational IT Services company on a wide variety of client projects across a range of industries. Projects involved everything from coaching and enablement, to delivery, and everything in between.',
+            highlights: [
+                'Consulting',
+                'Agile',
+                'Lean and Continuous Delivery',
                 'Test-Driven Development',
                 'Pair Programming',
                 'Education and Mentorship',
@@ -1044,7 +1074,7 @@ export const raz = {
         },
         {
             name: 'Hindi',
-            level: 'Fluent',
+            level: 'Native speaker',
         },
         {
             name: 'Urdu',
@@ -1060,10 +1090,6 @@ export const raz = {
         },
         {
             name: 'French',
-            level: 'Basic',
-        },
-        {
-            name: 'German',
             level: 'Basic',
         },
     ],
@@ -1085,7 +1111,6 @@ export const raz = {
             keywords: [
                 'PL: Manchester City',
                 'MLS: Atlanta United',
-                'La Liga: Real Madrid',
             ],
         },
         {
@@ -1097,8 +1122,9 @@ export const raz = {
         {
             name: 'Outdoors',
             keywords: [
-                'Off-Roading: I love my Jeep',
+                'Hiking',
                 'Kayaking',
+                'Biking',
             ],
         },
     ],
