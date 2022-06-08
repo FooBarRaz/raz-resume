@@ -44,25 +44,32 @@ export const raz = {
         {
             company: 'Slalom Build',
             position: 'Solution Principal in Software Engineering (prev: Solution Architect in SE)',
-            website: 'http://slalombuild.com',
+            website: 'https://slalombuild.com',
             startDate: '2019-09-16',
             endDate: 'Present',
-            summary: 'Working as consultant for a multinational IT Services company on a wide variety of client projects across a range of industries. Projects involved everything from coaching and enablement, to delivery, and everything in between.',
+            summary: `Responsible for leading client engagements, project teams/pods, and individual contributors.  
+                Growing a group of Engineers: connecting regularly to provide professional development, career guidance, and development opportunities.  
+                Assessing client business challenges and providing guidance and insight to ensure best-fit technology solutions.  
+                Collaborate with delivery managers to right-size the work effort required for a solution.  
+                Work with our highly skilled Slalom team to design and develop state-of-the-art outcomes.  
+                Design, document, and develop outstanding, modern applications using the full spectrum of technologies and design patterns.  
+                Assist with estimating work efforts required for each phase of a project.  
+                Work on POC projects with cutting-edge technologies.  
+                `,
             highlights: [
                 'Consulting',
+                'Discovery',
+                'Delivery',
                 'Agile',
+                'Engagement Management',
                 'Lean and Continuous Delivery',
-                'Test-Driven Development',
-                'Pair Programming',
-                'Education and Mentorship',
-                'Public Speaking',
-                'Clean Coding Practices',
+                'People Management',
+                'Professional Development and Mentorship',
                 'Architecture and Design',
-                'Workshops',
                 'Process Improvement',
-                'Organizational Transformation',
                 'Conflict Management',
                 'Relationship Building',
+                'Community Engagement',
             ],
         },
         {
