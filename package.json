@@ -19,6 +19,12 @@
     "postdeploy": "aws cloudfront create-invalidation --distribution-id E3QXXP918VA731 --paths '/*'"
   },
   "devDependencies": {
-    "react-snapshot": "^1.3.0"
+    "react-snapshot": "^1.3.0",
+    "husky": "latest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run deploy"
+    }
   }
 }
