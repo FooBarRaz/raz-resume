@@ -8,13 +8,8 @@ export const raz = {
     email: "mehraz.ali@live.com",
     phone: "1 (404) 889-6729",
     website: "https://www.mehrazali.com",
-    summary: `Call me Raz. With a robust track record spanning over a decade, I stand at the forefront of the tech industry, driven by a mission to eradicate subpar software. My journey weaves through an intricate tapestry of roles, where I've excelled in uncovering requirements, crafting applications, architecting robust systems, spearheading dynamic teams, and providing strategic consulting. 
-        As a Principal in the Software Engineering practice at Slalom _build, I dive deep into the heart of complex technological challenges, orchestrating simple yet impactful solutions. My approach as a consultant is rooted in empowering teams to excel, fostering a culture of organized, collaborative success, aligning team efforts seamlessly with the broader business objectives.
-        Leadership, for me, is a commitment to understanding and nurturing individual potential, guiding each member to self-improvement and collective triumph. My philosophy is anchored in three core principles: crafting products that are a joy to use and create, managing complexity with the caution it demands, and valuing pragmatic solutions over idealistic visions.
-        In this pivotal role, I'm geared to cultivate a cadre of engineers, steering them through professional growth and technological mastery, while partnering with clients to architect solutions that resonate with their business ethos. Together, with the Slalom_build team, I'm set to design, document, and develop cutting-edge applications, leveraging the full spectrum of technologies and design patterns, ensuring each project is not just a deliverable, but a benchmark of excellence in software engineering.
-        `,
+    summary: `Call me Raz. I'm an engineer, builder and leader with over 10 years of experience in consulting. I've worked in various roles, excelling in defining project needs, building applications, designing systems, leading teams, and providing strategic guidance. As a Principal at Slalom _build, I address complex tech issues with effective solutions. My consulting approach encourages team success and aligns with business goals. I believe in understanding each team member's potential and guiding them towards improvement and success. My principles include creating enjoyable products, handling complexity wisely, and valuing practical solutions. In my role, I aim to develop a team of skilled engineers, collaborate with clients to craft solutions that fit their business, and work with the Slalom_build team to create top-notch applications using a wide range of technologies, ensuring our projects set a standard for software excellence.`,
     location: {
-      address: "4591 Sims Ct",
       postalCode: "30319",
       city: "Brookhaven",
       countryCode: "USA",
@@ -337,12 +332,12 @@ export const raz = {
       highlights: ["1,000 pounds of food donations"],
     },
     {
-        organization: "Atlanta Community Food Bank",
-        position: "Volunteer",
-        website: "https://www.acfb.org/",
-        summary:
-          "Sorting and packing food donations for distribution to local food pantries.",
-    }
+      organization: "Atlanta Community Food Bank",
+      position: "Volunteer",
+      website: "https://www.acfb.org/",
+      summary:
+        "Sorting and packing food donations for distribution to local food pantries.",
+    },
   ],
   education: [
     {
