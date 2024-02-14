@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { render } from 'react-snapshot';
-
 import { raz, resumeType } from './raz-resume';
 
 import Resume from 'react-awesome-resume';
