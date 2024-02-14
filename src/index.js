@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { render } from 'react-snapshot'
+import { render } from 'react-snapshot';
 
 import { raz, resumeType } from './raz-resume';
 
-import  Resume from 'react-awesome-resume';
+import Resume from 'react-awesome-resume';
 import 'semantic-ui-css/semantic.min.css';
 
 

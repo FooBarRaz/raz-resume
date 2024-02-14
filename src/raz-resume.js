@@ -8,7 +8,7 @@ export const raz = {
     email: "mehraz.ali@live.com",
     phone: "1 (404) 889-6729",
     website: "https://www.mehrazali.com",
-    summary: `Call me Raz. I'm an engineer, builder and leader with over 10 years of experience in consulting. I've worked in various roles, excelling in defining project needs, building applications, designing systems, leading teams, and providing strategic guidance. As a Principal at Slalom _build, I address complex tech issues with effective solutions. My consulting approach encourages team success and aligns with business goals. I believe in understanding each team member's potential and guiding them towards improvement and success. My principles include creating enjoyable products, handling complexity wisely, and valuing practical solutions. In my role, I aim to develop a team of skilled engineers, collaborate with clients to craft solutions that fit their business, and work with the Slalom_build team to create top-notch applications using a wide range of technologies, ensuring our projects set a standard for software excellence.`,
+    summary: `Seasoned Principal Software Engineer with a decade of experience across consulting and industry. Proven expertise in designing and delivering complex software projects while leading high-performing teams. Specializes in driving project lifecycle, mentoring engineers, and implementing scalable solutions aligned with business goals. Committed to innovation, efficiency, and delivering high-quality software products.`,
     location: {
       postalCode: "30319",
       city: "Brookhaven",
@@ -80,6 +80,71 @@ export const raz = {
         "Technical Oversight",
         "Technical Direction",
         "Technical Guidance",
+      ],
+    },
+    {
+      company: "Regional Bank in Birmingham, Alabama",
+      position: "Principal Engineer",
+      startDate: "2023-03-01",
+      endDate: "Present",
+      summary: `Worked for a regional bank to create a platform for digitizing and consolidating a variety of business applications into a single cloud-native system. This was the client's first cloud-native endeavor, and as such, involved a lot experimentation, politics, and training, in addition to the technical challenges. I helped design and implement their services, application UIs, and the infrastruture, in compliance with their internal policies and practices. 
+      On the tail end of the project, I also worked to develop a set of applications designed to make them compliant with an upcoming banking regulation.`,
+      highlights: [
+        "AWS",
+        "Lambda",
+        "PostgresQL",
+        "Node.js",
+        "React",
+        "Typescript",
+        "Terraform",
+        "DynamoDB",
+        "SNS",
+        "EventBridge",
+        "StepFunctions",
+        "Prisma",
+        "tsoa",
+        "rsjf",
+        "Compliance",
+      ],
+    },
+    {
+      company: "Payment Products and Services Provider in Atlanta GA",
+      position: "Principal Engineer",
+      startDate: "2022-06-01",
+      endDate: "2023-02-28",
+      summary: `Worked for a regional bank to create a platform for digitizing and consolidating a variety of business applications into a single cloud-native system. This was the client's first cloud-native endeavor, and as such, involved a lot experimentation, politics, and training, in addition to the technical challenges. I helped design and implement their services, application UIs, and the infrastruture, in compliance with their internal policies and practices. 
+      On the tail end of the project, I also worked to develop a set of applications designed to make them compliant with an upcoming banking regulation.`,
+      highlights: [
+      ],
+    },
+    {
+      company: "CAI",
+      position: "Principal Engineer",
+      startDate: "2022-06-01",
+      endDate: "2023-02-28",
+      summary: `Worked for a regional bank to create a platform for digitizing and consolidating a variety of business applications into a single cloud-native system. This was the client's first cloud-native endeavor, and as such, involved a lot experimentation, politics, and training, in addition to the technical challenges. I helped design and implement their services, application UIs, and the infrastruture, in compliance with their internal policies and practices. 
+      On the tail end of the project, I also worked to develop a set of applications designed to make them compliant with an upcoming banking regulation.`,
+      highlights: [
+      ],
+    },
+    {
+      company: "RCCL",
+      position: "Soultion Architect",
+      startDate: "2022-06-01",
+      endDate: "2023-02-28",
+      summary: `Worked for a regional bank to create a platform for digitizing and consolidating a variety of business applications into a single cloud-native system. This was the client's first cloud-native endeavor, and as such, involved a lot experimentation, politics, and training, in addition to the technical challenges. I helped design and implement their services, application UIs, and the infrastruture, in compliance with their internal policies and practices. 
+      On the tail end of the project, I also worked to develop a set of applications designed to make them compliant with an upcoming banking regulation.`,
+      highlights: [
+      ],
+    },
+    {
+      company: "CN",
+      position: "Solution Architect",
+      startDate: "2022-06-01",
+      endDate: "2023-02-28",
+      summary: `Worked for a regional bank to create a platform for digitizing and consolidating a variety of business applications into a single cloud-native system. This was the client's first cloud-native endeavor, and as such, involved a lot experimentation, politics, and training, in addition to the technical challenges. I helped design and implement their services, application UIs, and the infrastruture, in compliance with their internal policies and practices. 
+      On the tail end of the project, I also worked to develop a set of applications designed to make them compliant with an upcoming banking regulation.`,
+      highlights: [
       ],
     },
     {
