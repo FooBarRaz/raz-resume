@@ -1,5 +1,6 @@
 node_modules/
 *.log
 build/
+src/**/*.js
 
 .DS_Store
