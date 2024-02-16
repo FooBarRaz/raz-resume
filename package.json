@@ -11,8 +11,8 @@
     "semantic-ui-css": "^2.3.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
+    "start": "tsc && react-scripts start",
+    "build": "tsc && react-scripts build && react-snapshot",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -20,8 +20,13 @@
     "postdeploy": "aws cloudfront create-invalidation --distribution-id E3QXXP918VA731 --paths '/*'"
   },
   "devDependencies": {
+    "@kurone-kito/jsonresume-types": "^0.4.0",
+    "@types/jest": "^29.5.12",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-snapshot": "^1.3.4",
     "husky": "latest",
-    "react-snapshot": "^1.3.0"
+    "react-snapshot": "^1.3.0",
+    "typescript": "^5.3.3"
   },
   "husky": {
     "hooks": {
