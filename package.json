@@ -17,7 +17,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "aws s3 sync build/ s3://razweb --acl public-read",
-    "postdeploy": "aws cloudfront create-invalidation --distribution-id E3QXXP918VA731 --paths '/*'"
+    "postdeploy": "aws cloudfront create-invalidation --distribution-id E3QXXP918VA731 --paths '/*'",
+    "gen": "tsc && ts-node scripts/toJson.ts"
   },
   "devDependencies": {
     "@kurone-kito/jsonresume-types": "^0.4.0",
