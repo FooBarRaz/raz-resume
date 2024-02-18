@@ -112,40 +112,36 @@ export const raz = {
       position: "Principal Engineer",
       startDate: "2022-06-01",
       endDate: "2023-02-28",
-      summary: `Worked for a regional bank to create a platform for digitizing and consolidating a variety of business applications into a single cloud-native system. This was the client's first cloud-native endeavor, and as such, involved a lot experimentation, politics, and training, in addition to the technical challenges. I helped design and implement their services, application UIs, and the infrastruture, in compliance with their internal policies and practices. 
-      On the tail end of the project, I also worked to develop a set of applications designed to make them compliant with an upcoming banking regulation.`,
-      highlights: [
-      ],
+      summary: "",
+      highlights: [],
     },
     {
-      company: "CAI",
+      company: "Automotive Services and Technology Provider in Atlanta, GA",
       position: "Principal Engineer",
       startDate: "2022-06-01",
       endDate: "2023-02-28",
-      summary: `Worked for a regional bank to create a platform for digitizing and consolidating a variety of business applications into a single cloud-native system. This was the client's first cloud-native endeavor, and as such, involved a lot experimentation, politics, and training, in addition to the technical challenges. I helped design and implement their services, application UIs, and the infrastruture, in compliance with their internal policies and practices. 
-      On the tail end of the project, I also worked to develop a set of applications designed to make them compliant with an upcoming banking regulation.`,
-      highlights: [
-      ],
+      summary: "",
+      highlights: [],
     },
     {
-      company: "RCCL",
+      company: "Leading Cruise Line in Miami, FL",
       position: "Soultion Architect",
       startDate: "2022-06-01",
       endDate: "2023-02-28",
-      summary: `Worked for a regional bank to create a platform for digitizing and consolidating a variety of business applications into a single cloud-native system. This was the client's first cloud-native endeavor, and as such, involved a lot experimentation, politics, and training, in addition to the technical challenges. I helped design and implement their services, application UIs, and the infrastruture, in compliance with their internal policies and practices. 
-      On the tail end of the project, I also worked to develop a set of applications designed to make them compliant with an upcoming banking regulation.`,
-      highlights: [
-      ],
+      summary: "",
+      highlights: [],
     },
     {
-      company: "CN",
-      position: "Solution Architect",
-      startDate: "2022-06-01",
-      endDate: "2023-02-28",
-      summary: `Worked for a regional bank to create a platform for digitizing and consolidating a variety of business applications into a single cloud-native system. This was the client's first cloud-native endeavor, and as such, involved a lot experimentation, politics, and training, in addition to the technical challenges. I helped design and implement their services, application UIs, and the infrastruture, in compliance with their internal policies and practices. 
-      On the tail end of the project, I also worked to develop a set of applications designed to make them compliant with an upcoming banking regulation.`,
-      highlights: [
-      ],
+      "company": "Animation and Television Studio in Atlanta, GA",
+      "position": "Solution Architect",
+      "startDate": "2022-06-01",
+      "endDate": "2023-02-28",
+      "summary": "Orchestrated the strategic updates and enhancements of a diverse portfolio of mobile games to ensure full compliance with the California Consumer Privacy Act (CCPA). Led a multidisciplinary team through the meticulous evaluation, planning, and implementation phases, significantly enhancing data privacy measures without compromising user experience.",
+      "highlights": [
+        "Successfully navigated the complexities of CCPA requirements, translating them into actionable technical specifications.",
+        "Collaborated closely with cross-functional teams, including legal, development, and quality assurance, to ensure a holistic approach to privacy compliance.",
+        "Implemented cutting-edge solutions that bolstered data security and privacy, establishing a new benchmark for product compliance within the industry."
+      ]
     },
     {
       company: "ThoughtWorks",
@@ -367,7 +363,6 @@ export const raz = {
       position: "Volunteer",
       website: "https://www.zipcodewilmington.com/",
       startDate: "2017-03",
-      summary: null,
       highlights: [
         "Helping aspring software developers work on group projects, and prepare for interviews with potential employers",
       ],
@@ -376,7 +371,6 @@ export const raz = {
       organization: "Digital Youth Founders",
       position: "Volunteer",
       website: "http://organization.com/",
-      summary: null,
       highlights: [
         "Helping middle and high-school kids learn to build software.",
       ],
