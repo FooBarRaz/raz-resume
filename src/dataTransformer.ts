@@ -19,7 +19,6 @@ export const transform = (source: typeof raz): ResumeSchema => {
     work: source.work.map((work) => {
       if (work.endDate === "Present") {
         const { endDate, ...restOfWork } = work;
-        console.log(`returning rest of work for ${work.company}`);
         return restOfWork;
       }
       return work;
