@@ -1,17 +1,24 @@
 import { ResumeSchema } from "@kurone-kito/jsonresume-types";
 import { raz } from "./raz-resume";
 
-const mapOfSkillLevelsToDescriptions = {
-  90: "Master",
-  80: "Expert",
-  70: "Advanced",
-  60: "Proficient",
-  50: "Intermediate",
-  40: "Competent",
-  30: "Novice",
-  20: "Beginner",
-  10: "Fundamental Awareness",
-};
+const skillLevelThresholds: [number, string][] = [
+  [90, "Master"],
+  [80, "Expert"],
+  [70, "Advanced"],
+  [60, "Proficient"],
+  [50, "Intermediate"],
+  [40, "Competent"],
+  [30, "Novice"],
+  [20, "Beginner"],
+  [10, "Fundamental Awareness"],
+];
+
+function getSkillLevelDescription(level: number): string {
+  for (const [threshold, description] of skillLevelThresholds) {
+    if (level >= threshold) return description;
+  }
+  return "Fundamental Awareness";
+}
 
 export const transform = (source: typeof raz): ResumeSchema => {
   return {
@@ -26,10 +33,7 @@ export const transform = (source: typeof raz): ResumeSchema => {
     skills: source.skills.map((skill) => {
       return {
         name: skill.name,
-        level:
-          mapOfSkillLevelsToDescriptions[
-            skill.level as keyof typeof mapOfSkillLevelsToDescriptions
-          ] || "Unknown",
+        level: getSkillLevelDescription(skill.level),
         keywords: skill.keywords,
       };
     }),

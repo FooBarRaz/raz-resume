@@ -3,12 +3,12 @@ import PropTypes from "prop-types";
 export const raz = {
   basics: {
     name: "Mehraz Ali",
-    label: "Builder | Consultant | Leader",
+    label: "Consultant | Builder | Leader | Entrepreneur",
     picture: "./profile.png",
     email: "mehraz.ali@live.com",
     phone: "1 (404) 889-6729",
     website: "https://www.mehrazali.com",
-    summary: `Seasoned Principal Software Engineer with a decade of experience across consulting and industry. Proven expertise in designing and delivering complex software projects while leading high-performing teams. Specializes in driving project lifecycle, mentoring engineers, and implementing scalable solutions aligned with business goals. Committed to innovation, efficiency, and delivering high-quality software products.`,
+    summary: `Senior Principal Engineer, AI-forward founder, and seasoned technology consultant with 13+ years of experience building and shipping software across consulting and industry. Currently leading large-scale client engagements at Slalom Build while building DogFoodLab — a product studio focused on eliminating friction from everyday life through smart, AI-powered tools. Proven track record of designing complex distributed systems, leading cross-functional teams, and driving AI adoption and acceleration at scale. Passionate about leveraging AI-driven development practices — including Spec-Driven Development (SDD), agentic workflows, and workflow automation — to ship faster and smarter. Equal parts hands-on builder and strategic leader.`,
     location: {
       postalCode: "30319",
       city: "Brookhaven",
@@ -35,85 +35,75 @@ export const raz = {
   },
   work: [
     {
+      company: "DogFoodLab",
+      position: "Founder & CEO",
+      website: "https://dogfoodlab.io",
+      startDate: "2025-02-01",
+      endDate: "Present",
+      summary: `Founder and sole operator of DogFoodLab — a product studio dedicated to cutting through the everyday nonsense. We build smart, innovative tools that let you focus on what truly matters — creating moments of magic in a world full of distractions. The flagship product, StashDog, is currently in active development. DogFoodLab operates at the intersection of AI-driven development, workflow automation, and practical product design.`,
+      highlights: [
+        "Founded and launched a solo product studio from the ground up",
+        "Building StashDog — flagship product in active development",
+        "AI-native development workflow using Claude Code, Kiro, and agentic tooling",
+        "End-to-end product ownership: ideation, design, architecture, implementation, and GTM",
+        "n8n workflow automation for business process pipelines",
+        "Supabase",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Serverless Architecture",
+      ],
+    },
+    {
       company: "Slalom Build",
-      position:
-        "Principal, Software Engineering (prev: Solution Architect in SE)",
+      position: "Senior Principal, Software Engineering",
       website: "https://slalombuild.com",
       startDate: "2019-09-16",
       endDate: "Present",
-      summary: `Responsible for leading client engagements, project teams/pods, and individual contributors.  
-                Growing a group of Engineers: connecting regularly to provide professional development, career guidance, and development opportunities.  
-                Assessing client business challenges and providing guidance and insight to ensure best-fit technology solutions.  
-                Collaborating with delivery managers to right-size the work effort required for a solution.  
-                Working with our highly skilled Slalom team to design and develop state-of-the-art outcomes.  
-                Designing, documenting, and developing outstanding, modern applications using the full spectrum of technologies and design patterns.  
-                Assisting with estimating work efforts required for each phase of a project.  
-                Working on POC projects with cutting-edge technologies.  
-                `,
+      summary: `Leading complex, large-scale client engagements from discovery through delivery as a Senior Principal Engineer. Managing and mentoring teams of engineers — providing career guidance, professional development, and technical coaching. Driving AI adoption and acceleration across teams, training and guiding organizations toward effective AI integration at scale. Assessing client business challenges and architecting best-fit technology solutions. Collaborating with delivery managers, stakeholders, and cross-functional teams to scope, estimate, and deliver modern cloud-native applications.`,
       highlights: [
-        "Consulting",
-        "Discovery",
-        "Delivery",
-        "Agile",
-        "Engagement Management",
-        "Lean and Continuous Delivery",
-        "People Management",
-        "Professional Development and Mentorship",
-        "Architecture and Design",
-        "Process Improvement",
-        "Conflict Management",
-        "Relationship Building",
-        "Community Engagement",
-        "Thought Leadership",
-        "Public Speaking",
-        "Technical Leadership",
-        "Technical Coaching",
-        "Technical Enablement",
-        "Technical Strategy",
-        "Technical Vision",
-        "Technical Roadmapping",
-        "Technical Solutioning",
-        "Technical Design",
-        "Technical Delivery",
-        "Technical Implementation",
-        "Technical Execution",
-        "Technical Oversight",
-        "Technical Direction",
-        "Technical Guidance",
+        "Promoted to Senior Principal (July 2025)",
+        "Leading AI adoption and acceleration initiatives across client teams at scale",
+        "Training and coaching teams on effective AI-driven development practices",
+        "Managing complex, multi-pod client engagements end-to-end",
+        "People management and professional development for a growing engineering cohort",
+        "Technical strategy, architecture, and solution design",
+        "Engagement management and client relationship building",
+        "Thought leadership and public speaking",
+        "Agile delivery, continuous improvement, and process optimization",
       ],
     },
     {
       company: "Regional Bank in Birmingham, Alabama",
       position: "Principal Engineer",
       startDate: "2023-03-01",
-      endDate: "Present",
-      summary: `Worked for a regional bank to create a platform for digitizing and consolidating a variety of business applications into a single cloud-native system. This was the client's first cloud-native endeavor, and as such, involved a lot experimentation, politics, and training, in addition to the technical challenges. I helped design and implement their services, application UIs, and the infrastruture, in compliance with their internal policies and practices. 
-      On the tail end of the project, I also worked to develop a set of applications designed to make them compliant with an upcoming banking regulation.`,
+      endDate: "2025-01-31",
+      summary: `Led the design and delivery of a cloud-native platform for a regional bank, digitizing and consolidating multiple business applications into a unified system. This was the client's first cloud-native initiative, requiring extensive experimentation, stakeholder alignment, organizational change management, and hands-on technical execution. Designed and implemented services, application UIs, and infrastructure in compliance with internal banking policies. Also developed a suite of applications to ensure compliance with upcoming banking regulations.`,
       highlights: [
         "AWS",
         "Lambda",
-        "PostgresQL",
+        "PostgreSQL",
         "Node.js",
         "React",
-        "Typescript",
+        "TypeScript",
         "Terraform",
         "DynamoDB",
         "SNS",
         "EventBridge",
-        "StepFunctions",
+        "Step Functions",
         "Prisma",
         "tsoa",
-        "rsjf",
-        "Compliance",
+        "RJSF",
+        "Regulatory Compliance",
+        "Cloud-Native Transformation",
       ],
     },
     {
-      company: "Payment Products and Services Provider in Atlanta GA",
+      company: "Payment Products and Services Provider in Atlanta, GA",
       position: "Principal Engineer",
       startDate: "2022-06-01",
       endDate: "2023-02-28",
-      summary:
-        "Developed a multi-tenant e-commerce platform for selling food online, like whitelabel DoorDash",
+      summary: `Designed and built a multi-tenant whitelabel e-commerce platform enabling restaurants to manage and fulfill online orders — essentially a customizable DoorDash-style solution. Implemented real-time order management, menu configuration, and payment processing capabilities across a multi-tenant architecture.`,
       highlights: [
         "Google Cloud Platform",
         "Next.js",
@@ -121,9 +111,10 @@ export const raz = {
         "Firebase",
         "Realtime Database",
         "GraphQL",
+        "Multi-tenancy",
         "Accessibility",
         "SEO",
-        "Performance",
+        "Performance Optimization",
       ],
     },
     {
@@ -131,17 +122,16 @@ export const raz = {
       position: "Principal Engineer",
       startDate: "2022-06-01",
       endDate: "2023-02-28",
-      summary:
-        "Developed and launched a multi-tenant e-commerce platform for selling cars online",
+      summary: `Developed and launched an online e-commerce platform to facilitate selling cars digitally. Built out the full buying experience including vehicle search, credit applications, payment processing, and multi-tenant support for dealer networks.`,
       highlights: [
         "Node.js",
         "AWS",
         "React",
         "ElasticSearch",
-        "REST",
+        "REST APIs",
         "Multi-tenancy",
         "DynamoDB",
-        "StepFunctions",
+        "Step Functions",
         "E-Commerce",
         "Credit Applications",
         "Payment Processing",
@@ -149,13 +139,13 @@ export const raz = {
     },
     {
       company: "Leading Cruise Line in Miami, FL",
-      position: "Soultion Architect",
+      position: "Solution Architect",
       startDate: "2022-06-01",
       endDate: "2023-02-28",
-      summary:
-        "Devloped a system for capturing, storing, managing, and selling photos taken on cruises, to be operated on-prem hardware on the ships.",
+      summary: `Architected and developed a system for capturing, storing, managing, and selling photos and media taken on cruise ships — including passenger photos, event coverage, and onboard experiences. The system was designed to run on on-prem hardware aboard the ships with cloud sync capabilities.`,
       highlights: [
         "Photo Management",
+        "On-Prem / Hybrid Architecture",
         "Android",
         "Kotlin",
         "AWS",
@@ -170,17 +160,17 @@ export const raz = {
       position: "Solution Architect",
       startDate: "2022-06-01",
       endDate: "2023-02-28",
-      summary:
-        "Orchestrated the strategic updates and enhancements of a diverse portfolio of mobile games to ensure full compliance with the California Consumer Privacy Act (CCPA). Led a multidisciplinary team through the meticulous evaluation, planning, and implementation phases, significantly enhancing data privacy measures without compromising user experience.",
+      summary: `Led the effort to bring a portfolio of mobile games up to spec with new SDKs, platform standards, and California Consumer Privacy Act (CCPA) compliance requirements. Coordinated across a multidisciplinary team spanning legal, development, and QA to evaluate, plan, and execute privacy and technical updates across iOS, Android, and iPad OS titles without disrupting user experience.`,
       highlights: [
         "iOS",
         "Android",
         "iPad OS",
         "Unity",
         "C# .NET",
-        "Successfully navigated the complexities of CCPA requirements, translating them into actionable technical specifications.",
-        "Collaborated closely with cross-functional teams, including legal, development, and quality assurance, to ensure a holistic approach to privacy compliance.",
-        "Implemented cutting-edge solutions that bolstered data security and privacy, establishing a new benchmark for product compliance within the industry.",
+        "CCPA Compliance",
+        "SDK Upgrades",
+        "Cross-functional Team Leadership",
+        "Mobile Game Portfolio Management",
       ],
     },
     {
@@ -189,8 +179,7 @@ export const raz = {
       website: "http://thoughtworks.com",
       startDate: "2014-02-01",
       endDate: "2019-09-13",
-      summary:
-        "Working as consultant for a multinational IT Services company on a wide variety of client projects across a range of industries. Projects involved everything from coaching and enablement, to delivery, and everything in between.",
+      summary: `Consultant at a leading global IT services firm, delivering across a wide variety of client projects in financial services, retail, logistics, and more. Responsibilities spanned the full spectrum — from hands-on delivery and architecture to coaching, enablement, and organizational transformation. Built a reputation for technical excellence, clear communication, and elevating team capabilities.`,
       highlights: [
         "Consulting",
         "Agile",
@@ -213,25 +202,21 @@ export const raz = {
       position: "Founder/CXO",
       website: "http://kinexys.com",
       startDate: "2017-01-01",
-      endDate: "Present",
-      summary:
-        "I founded this company as a legal entity around my passion projects. Watch this space for updates.",
+      endDate: "2024-12-31",
+      summary: `Founded Kinexys as a holding company and legal entity for passion projects. Flagship product was Shotcaller — a location-based social media app published to both the Apple App Store and Google Play Store. Took Shotcaller from concept through design, development, and production launch as a solo founder. Company has since been folded; Shotcaller has been sunsetted.`,
       highlights: [
-        "Started the company",
-        "Took Shotcaller from inception to production",
-        "Published Shotcaller to Apple App Store and Google Play Store",
+        "Took Shotcaller from inception to production as sole founder",
+        "Published to Apple App Store and Google Play Store",
         "Social Media App",
         "iOS",
         "Android",
         "Mobile Web",
         "OAuth 2.0",
         "PostGIS",
-        "ReactNative",
+        "React Native",
         "Heroku",
         "Ruby on Rails",
         "AWS",
-        "Phonegap (Legacy)",
-        "KnockoutJs (Legacy)",
       ],
     },
     {
@@ -239,28 +224,24 @@ export const raz = {
       position: "Technical Lead/Sr. Software Engineer",
       startDate: "2017-10-01",
       endDate: "2019-04-30",
-      summary: `Worked with a Business Analytics company to help them build their flagship analytics platform from a greenfield.
-             The goal of this project was to develop and deliver an application that would provide vendors for a major retailer with actionable insights based on their retail sales data.
-             I helped lead a team of 12 developers to build a full-stack application, with an Angular(6/7) frontend and a cluster of SpringBoot-powered Java microservices on the backend.
-             Through the course of the project, I worked on training and coaching the team on development and testing best practices, as well as enabling them to work location-independently with a remote team in Deerfield, IL and other remote members across the country.`,
+      summary: `Led a team of 12 developers to build a greenfield analytics platform for a major retailer's vendor ecosystem. The application provided vendors with actionable insights based on retail sales data. Built a full-stack solution with an Angular frontend and a cluster of Spring Boot-powered Java microservices. Coached the team on development and testing best practices while enabling distributed collaboration across multiple locations.`,
       highlights: [
         "Greenfield",
-        "Stream lead",
-        "Code-zero to prod",
+        "Stream Lead",
+        "Code-zero to Production",
         "Production Support",
         "Microservices",
         "Pivotal Cloud Foundry",
         "Distributed Team",
         "Feature Toggles",
-        "CLI development (Commander)",
-        "Angular2/4/6/7",
-        "Rxjs / NgRx",
+        "CLI Development",
+        "Angular 2/4/6/7",
+        "RxJS / NgRx",
         "Java",
         "Spring Boot",
-        "Spring CloudStream",
+        "Spring Cloud Stream",
         "Spring Batch",
         "RabbitMQ",
-        "HATEOAS",
       ],
     },
     {
@@ -268,9 +249,7 @@ export const raz = {
       position: "Sr. Software Engineer",
       startDate: "2017-06-01",
       endDate: "2017-10-01",
-      summary: `I worked with a Consumer Credit Reporting Agency to build a system to analyze their authentication systems for risk indicators.
-             The goal of this project was to be able to track access patterns across a number of factual, situational, and behavioral metrics in order to build a risk profile of a user attempting to log in to the system to predict and raise alerts around fraudulent activity.
-             I was part of a team of 8 developers who worked to stand up the backend infrastructure for that system using a variety of tools including Java, CassandraDB, Apache Avro, Apache Kafka, and various clickstream aggregators.`,
+      summary: `Built a fraud detection and risk analysis system for a consumer credit reporting agency. The system tracked access patterns across factual, situational, and behavioral metrics to build risk profiles and flag fraudulent authentication attempts. Worked on an 8-person team to stand up the backend infrastructure using Java, CassandraDB, Apache Avro, Apache Kafka, and clickstream aggregation tools.`,
       highlights: [
         "Greenfield",
         "Cassandra",
@@ -278,6 +257,9 @@ export const raz = {
         "Distributed Team",
         "Java",
         "Spring Config Server",
+        "Apache Kafka",
+        "Apache Avro",
+        "Fraud Detection",
       ],
     },
     {
@@ -285,24 +267,19 @@ export const raz = {
       position: "Sr. Software Engineer",
       startDate: "2017-01-01",
       endDate: "2017-06-01",
-      summary: `I worked for a credit card and payment services provider on a number of engagements, that involved building, maintaining, and supporting their core business services platform in production.
-            This was a massive, event-sourced system comprised of dozens of microservices, serving tens of thousands of users on a daily basis. 
-            I was involved in a variety of initiatives there, ranging from production support, to inceptions for new product offerings, all the way to experimental research efforts.
-            In these efforts, I worked with a variety of technologies including Spring Cloud Stream, Kafka, and the Axon event sourcing framework. 
-            I was also instrumental in helping develop a command line tool for developers to automate mundane development tasks.`,
+      summary: `Worked on a large-scale, event-sourced microservices platform serving tens of thousands of daily users for a major payment services provider. Contributed across production support, new product inceptions, and experimental R&D initiatives. Built a developer CLI tool to automate routine development tasks.`,
       highlights: [
-        "Legacy",
         "Microservices",
         "CQRS/Event Sourcing",
         "Production Support",
-        "CLI development (Thor, bash)",
+        "CLI Development",
         "Java",
         "Ruby",
         "Golang",
         "Spring Boot",
         "Spring Cloud Dataflow",
         "Kafka",
-        "Axon",
+        "Axon Framework",
         "Distributed Team",
       ],
     },
@@ -311,11 +288,7 @@ export const raz = {
       position: "Technical Lead/Sr. Developer",
       startDate: "2016-06-01",
       endDate: "2016-12-01",
-      summary: `I worked on two different projects for a Mortgage Loan and Financial Services company in Reston, VA.
-             The first one involved building a testing framework for their data engineers to validate their ETL jobs.
-             This was an ambitious undertaking led by myself, and the end result was a series of custom-built tools and processes that resulted in an over 50% reduction in time spent testing new ETL processes/jobs. 
-             Following that delivery effort, I transitioned over to another project where I helped coach 5 different scrum teams on Agile development practices through pairing, structured learning and presentations, as they worked to build out a next-generation offering to replace a legacy loan delivery system.
-`,
+      summary: `Delivered two engagements for a mortgage and financial services company. First, built a custom testing framework for data engineers to validate ETL jobs — resulting in over 50% reduction in testing time. Then transitioned to coaching 5 scrum teams on Agile development practices through pairing, structured learning, and presentations as they built a next-generation loan delivery system.`,
       highlights: [
         "Greenfield",
         "Coaching and Enablement",
@@ -325,10 +298,7 @@ export const raz = {
         "Spring Boot",
         "Trunk-based Development",
         "Test-Driven Development",
-        "Testing Practices",
-        "Refactoring",
         "Data Testing Framework",
-        "Legacy System",
         "ETL",
         "Behaviour Driven Development",
       ],
@@ -338,11 +308,9 @@ export const raz = {
       position: "Sr. Software Engineer",
       startDate: "2015-03-01",
       endDate: "2016-06-01",
-      summary: `I worked for an Automobile Auction Company where I and a team of 5-10 other developers worked on enhancing the capabilities of a legacy messaging platform.
-             This involved delivery work with regards to creating and deploying some new services concerned with financial settlements for auctioned vehicles.
-             During my time there, I also worked on coaching client developers on best practices related to working with legacy systems, including testing, automation, and refactoring.`,
+      summary: `Enhanced the capabilities of a legacy messaging platform for an automobile auction company. Built and deployed new services for financial settlements of auctioned vehicles. Coached client developers on best practices for working with legacy systems, including testing, automation, and refactoring techniques.`,
       highlights: [
-        "Legacy",
+        "Legacy Modernization",
         "Java",
         "ETL",
         "ActiveMQ",
@@ -359,7 +327,7 @@ export const raz = {
       startDate: "2014-09-01",
       endDate: "2015-02-01",
       summary:
-        "I worked on building a mobile app with product recommendation engine for a company that manufactures cooking appliances.",
+        "Built a mobile application with a product recommendation engine for a cooking appliances manufacturer.",
       highlights: [
         "Greenfield",
         "Mobile",
@@ -374,11 +342,11 @@ export const raz = {
       startDate: "2014-03-01",
       endDate: "2015-08-01",
       summary:
-        "I worked on developing an organizational management and charting application for a company that makes HR Software",
+        "Developed an organizational management and charting application for an HR software company.",
       highlights: [
         "C#",
         ".NET MVC",
-        "KnockoutJs",
+        "KnockoutJS",
         "D3.js",
         "Bootstrap",
         "NUnit",
@@ -393,7 +361,7 @@ export const raz = {
       startDate: "2011-12",
       endDate: "2014-02",
       summary:
-        "Worked on building a desktop application for managing video sources and interfacing with proprietary hardware, amongst several other things.",
+        "Built a desktop application for managing video sources and interfacing with proprietary display hardware.",
       highlights: ["C#", "WPF", "Video Signal Processing", "Full-stack"],
     },
   ],
@@ -404,7 +372,7 @@ export const raz = {
       website: "https://www.zipcodewilmington.com/",
       startDate: "2017-03",
       highlights: [
-        "Helping aspring software developers work on group projects, and prepare for interviews with potential employers",
+        "Helping aspiring software developers work on group projects and prepare for interviews with potential employers",
       ],
     },
     {
@@ -427,7 +395,7 @@ export const raz = {
       position: "Volunteer",
       website: "http://organization.com/",
       summary:
-        "Delivering food and groceries to people with disabilities and chronic ilnesses.",
+        "Delivering food and groceries to people with disabilities and chronic illnesses.",
       highlights: ["1,000 pounds of food donations"],
     },
     {
@@ -459,38 +427,120 @@ export const raz = {
     },
   ],
   skills: [
+    // --- AI & Modern Tooling ---
     {
-      name: "AWS",
-      level: 60,
+      name: "AI-Driven Development",
+      level: 90,
       keywords: ["Technical"],
     },
     {
-      name: "Android",
+      name: "Claude Code",
+      level: 90,
+      keywords: ["Technical"],
+    },
+    {
+      name: "GitHub Copilot",
+      level: 85,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Amazon Kiro",
+      level: 80,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Google Gemini",
+      level: 80,
+      keywords: ["Technical"],
+    },
+    {
+      name: "ChatGPT / OpenAI",
+      level: 85,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Cursor",
+      level: 80,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Spec-Driven Development (SDD)",
+      level: 85,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Agentic Workflows",
+      level: 85,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Workflow Automation (n8n)",
+      level: 80,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Prompt Engineering",
+      level: 90,
+      keywords: ["Technical"],
+    },
+    {
+      name: "AI Team Enablement & Adoption",
+      level: 90,
+      keywords: ["Technical"],
+    },
+    // --- Core Stack ---
+    {
+      name: "TypeScript",
+      level: 85,
+      keywords: ["Technical"],
+    },
+    {
+      name: "JavaScript",
+      level: 90,
+      keywords: ["Technical"],
+    },
+    {
+      name: "React",
+      level: 85,
+      keywords: ["Technical"],
+    },
+    {
+      name: "React Native",
+      level: 75,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Next.js",
+      level: 75,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Node.js",
+      level: 85,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Java",
+      level: 90,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Spring Boot",
+      level: 85,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Python",
       level: 70,
       keywords: ["Technical"],
     },
     {
-      name: "Angular (version 2+) ",
+      name: "Ruby",
       level: 80,
       keywords: ["Technical"],
     },
     {
-      name: "Ansible",
-      level: 40,
-      keywords: ["Technical"],
-    },
-    {
-      name: "AppDynamics",
-      level: 40,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Bootstrap ",
-      level: 80,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Build Pipelines",
+      name: "Ruby on Rails",
       level: 80,
       keywords: ["Technical"],
     },
@@ -500,33 +550,29 @@ export const raz = {
       keywords: ["Technical"],
     },
     {
-      name: "C++",
+      name: "Kotlin",
+      level: 60,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Golang",
       level: 40,
       keywords: ["Technical"],
     },
+    // --- Cloud & Infrastructure ---
     {
-      name: "CI",
-      level: 60,
+      name: "AWS",
+      level: 85,
       keywords: ["Technical"],
     },
     {
-      name: "CSS",
+      name: "Lambda",
       level: 80,
       keywords: ["Technical"],
     },
     {
-      name: "Cassandra",
-      level: 70,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Chef",
-      level: 60,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Cloud Foundry (PCF)",
-      level: 80,
+      name: "Terraform",
+      level: 75,
       keywords: ["Technical"],
     },
     {
@@ -535,173 +581,96 @@ export const raz = {
       keywords: ["Technical"],
     },
     {
-      name: "Google Compute Engine/Cloud",
+      name: "Google Cloud Platform",
       level: 60,
       keywords: ["Technical"],
     },
     {
-      name: "Groovy",
-      level: 50,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Grunt",
-      level: 60,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Gulp",
-      level: 60,
-      keywords: ["Technical"],
-    },
-    {
-      name: "HTML",
-      level: 90,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Hadoop",
-      level: 20,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Java",
-      level: 90,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Javascript",
+      name: "Serverless Architecture",
       level: 80,
       keywords: ["Technical"],
     },
     {
-      name: "Javascript visualization libraries (D3.js)",
-      level: 50,
+      name: "CI/CD Pipelines",
+      level: 85,
       keywords: ["Technical"],
     },
     {
-      name: "Kotlin",
-      level: 60,
+      name: "Supabase",
+      level: 75,
       keywords: ["Technical"],
     },
     {
-      name: "Less",
-      level: 60,
+      name: "Firebase",
+      level: 70,
       keywords: ["Technical"],
     },
+    // --- Data ---
     {
-      name: "Machine Learning",
-      level: 20,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Microsoft SQL ",
-      level: 60,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Mobile Web",
+      name: "PostgreSQL",
       level: 80,
       keywords: ["Technical"],
     },
     {
-      name: "Mongo",
+      name: "DynamoDB",
+      level: 75,
+      keywords: ["Technical"],
+    },
+    {
+      name: "MongoDB",
       level: 60,
       keywords: ["Technical"],
     },
     {
-      name: "MySQL",
-      level: 60,
+      name: "Cassandra",
+      level: 65,
       keywords: ["Technical"],
     },
     {
-      name: "New Relic",
-      level: 30,
+      name: "ElasticSearch",
+      level: 65,
       keywords: ["Technical"],
     },
     {
-      name: "Node JS",
-      level: 60,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Open Stack",
-      level: 40,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Oracle",
-      level: 60,
-      keywords: ["Technical"],
-    },
-    {
-      name: "PHP",
-      level: 40,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Postgres",
-      level: 60,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Processing",
-      level: 50,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Puppet",
-      level: 60,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Python",
+      name: "Kafka",
       level: 70,
       keywords: ["Technical"],
     },
     {
-      name: "Rabbit MQ",
+      name: "RabbitMQ",
       level: 70,
       keywords: ["Technical"],
     },
     {
-      name: "React",
-      level: 60,
+      name: "GraphQL",
+      level: 70,
       keywords: ["Technical"],
     },
     {
-      name: "React Native",
-      level: 60,
+      name: "Prisma",
+      level: 70,
       keywords: ["Technical"],
     },
+    // --- Frontend ---
     {
-      name: "Ruby",
+      name: "Angular (2+)",
       level: 80,
       keywords: ["Technical"],
     },
     {
-      name: "SQL",
-      level: 60,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Scala",
-      level: 40,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Splunk",
-      level: 60,
-      keywords: ["Technical"],
-    },
-    {
-      name: "Unix/Linux",
+      name: "HTML / CSS",
       level: 90,
       keywords: ["Technical"],
     },
     {
-      name: "Webpack",
-      level: 60,
+      name: "D3.js",
+      level: 50,
+      keywords: ["Technical"],
+    },
+    // --- Mobile ---
+    {
+      name: "Android",
+      level: 70,
       keywords: ["Technical"],
     },
     {
@@ -710,13 +679,60 @@ export const raz = {
       keywords: ["Technical"],
     },
     {
-      name: "C# application development",
+      name: "Unity",
+      level: 40,
+      keywords: ["Technical"],
+    },
+    // --- Legacy (retained) ---
+    {
+      name: "AS/400",
+      level: 40,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Tibco ActiveMatrix/EMS",
+      level: 40,
+      keywords: ["Technical"],
+    },
+    {
+      name: "KnockoutJS",
+      level: 50,
+      keywords: ["Technical"],
+    },
+    {
+      name: "PhoneGap",
+      level: 40,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Grunt",
+      level: 50,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Gulp",
+      level: 50,
+      keywords: ["Technical"],
+    },
+    {
+      name: "Cloud Foundry (PCF)",
+      level: 75,
+      keywords: ["Technical"],
+    },
+    // --- Testing ---
+    {
+      name: "Test-Driven Development",
+      level: 90,
+      keywords: ["Testing"],
+    },
+    {
+      name: "Behaviour Driven Development",
       level: 80,
       keywords: ["Testing"],
     },
     {
-      name: "Capybara",
-      level: 60,
+      name: "Selenium WebDriver",
+      level: 70,
       keywords: ["Testing"],
     },
     {
@@ -725,28 +741,18 @@ export const raz = {
       keywords: ["Testing"],
     },
     {
-      name: "Go",
-      level: 40,
+      name: "Jest / Mocha / JUnit",
+      level: 85,
       keywords: ["Testing"],
     },
     {
-      name: "Java application development",
-      level: 90,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Java test automation",
-      level: 90,
-      keywords: ["Testing"],
-    },
-    {
-      name: "JavaScript application development",
-      level: 90,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Jbehave",
+      name: "Load & Performance Testing",
       level: 60,
+      keywords: ["Testing"],
+    },
+    {
+      name: "Security Testing",
+      level: 40,
       keywords: ["Testing"],
     },
     {
@@ -754,89 +760,25 @@ export const raz = {
       level: 80,
       keywords: ["Testing"],
     },
-    {
-      name: "Load testing",
-      level: 60,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Manual/Exploratory Testing",
-      level: 70,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Mobile Development (Android / iOS / PhoneGap)",
-      level: 80,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Mobile test automation - Android",
-      level: 60,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Performance testing",
-      level: 60,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Requirements Analysis",
-      level: 80,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Ruby application development",
-      level: 80,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Ruby on Rails",
-      level: 80,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Ruby test automation",
-      level: 70,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Security testing",
-      level: 40,
-      keywords: ["Testing"],
-    },
-    {
-      name: "Selenium-webdriver",
-      level: 70,
-      keywords: ["Testing"],
-    },
-    {
-      name: "TeamCity",
-      level: 80,
-      keywords: ["Testing"],
-    },
+    // --- Consulting ---
     {
       name: "Communication",
-      level: 80,
+      level: 90,
       keywords: ["Consulting"],
     },
     {
       name: "Executive Advisory",
-      level: 70,
+      level: 80,
       keywords: ["Consulting"],
     },
     {
       name: "Facilitation",
-      level: 80,
+      level: 85,
       keywords: ["Consulting"],
     },
     {
-      name: "Influence",
-      level: 80,
-      keywords: ["Consulting"],
-    },
-    {
-      name: "Innovating",
-      level: 80,
+      name: "People Management",
+      level: 85,
       keywords: ["Consulting"],
     },
     {
@@ -845,125 +787,67 @@ export const raz = {
       keywords: ["Consulting"],
     },
     {
-      name: "Organisational Transformation",
-      level: 70,
+      name: "Organizational Transformation",
+      level: 75,
       keywords: ["Consulting"],
     },
     {
-      name: "Planning",
-      level: 70,
-      keywords: ["Consulting"],
-    },
-    {
-      name: "Presenting",
+      name: "Presenting / Public Speaking",
       level: 90,
       keywords: ["Consulting"],
     },
     {
-      name: "Problem solving",
+      name: "Problem Solving",
       level: 90,
       keywords: ["Consulting"],
     },
     {
-      name: "Questioning",
-      level: 90,
-      keywords: ["Consulting"],
-    },
-    {
-      name: "Relationship building",
-      level: 80,
+      name: "Relationship Building",
+      level: 85,
       keywords: ["Consulting"],
     },
     {
       name: "Strategy",
-      level: 70,
+      level: 75,
       keywords: ["Consulting"],
     },
     {
-      name: "Synthesis",
-      level: 80,
-      keywords: ["Consulting"],
-    },
-    {
-      name: "System thinking",
-      level: 70,
-      keywords: ["Consulting"],
-    },
-    {
-      name: "Teaching",
+      name: "Teaching / Mentorship",
       level: 90,
       keywords: ["Consulting"],
     },
     {
-      name: "Computers & Electronics",
-      level: 80,
-      keywords: ["Domain"],
+      name: "AI Adoption Strategy",
+      level: 90,
+      keywords: ["Consulting"],
     },
-    {
-      name: "Engineering, Research & Development",
-      level: 60,
-      keywords: ["Domain"],
-    },
+    // --- Domain ---
     {
       name: "Financial Services & Insurance",
       level: 80,
       keywords: ["Domain"],
     },
     {
-      name: "Government",
-      level: 60,
-      keywords: ["Domain"],
-    },
-    {
-      name: "Software & Internet",
+      name: "E-Commerce & Retail",
       level: 80,
       keywords: ["Domain"],
     },
     {
-      name: "Analytics",
-      level: 40,
-      keywords: ["BA & XD"],
+      name: "Automotive",
+      level: 65,
+      keywords: ["Domain"],
     },
     {
-      name: "Business Vision & Context Analysis ",
-      level: 40,
-      keywords: ["BA & XD"],
+      name: "Entertainment & Media",
+      level: 65,
+      keywords: ["Domain"],
     },
     {
-      name: "Concept Generation",
-      level: 40,
-      keywords: ["BA & XD"],
+      name: "SaaS & Product Development",
+      level: 80,
+      keywords: ["Domain"],
     },
-    {
-      name: "Storytelling & Storyboarding",
-      level: 60,
-      keywords: ["BA & XD"],
-    },
-    {
-      name: "UI Development",
-      level: 60,
-      keywords: ["BA & XD"],
-    },
-    {
-      name: "Usability Research",
-      level: 40,
-      keywords: ["BA & XD"],
-    },
-    {
-      name: "Usability Testing",
-      level: 40,
-      keywords: ["BA & XD"],
-    },
-    {
-      name: "User Research & Customer Analysis",
-      level: 40,
-      keywords: ["BA & XD"],
-    },
-    {
-      name: "Visual Design",
-      level: 60,
-      keywords: ["BA & XD"],
-    },
+    // --- Languages ---
     {
       name: "Arabic",
       level: 40,
@@ -1033,6 +917,10 @@ export const raz = {
     {
       name: "Outdoors",
       keywords: ["Hiking", "Kayaking", "Biking"],
+    },
+    {
+      name: "Motorsports",
+      keywords: ["Racing Aerodynamics", "F1"],
     },
   ],
   references: [],
