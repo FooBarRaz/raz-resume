@@ -1,12 +1,8 @@
 import React from 'react';
-import Resume from 'react-awesome-resume';
 import { render } from 'react-snapshot';
-import 'semantic-ui-css/semantic.min.css';
-import { raz } from './raz-resume';
+import App from './App';
 
 render(
-  <Resume jsonResume={raz} theme="default" />,
-  document.getElementById("root")
+  <App />,
+  document.getElementById('root')
 );
-
-export default Resume;
