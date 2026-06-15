@@ -4,7 +4,7 @@ export const raz = {
   basics: {
     name: "Mehraz Ali",
     label: "Consultant | Builder | Leader | Entrepreneur",
-    picture: "./profile.png",
+    picture: "./profile-2026.png",
     email: "mehraz.ali@live.com",
     phone: "1 (404) 889-6729",
     website: "https://www.mehrazali.com",
@@ -20,11 +20,6 @@ export const raz = {
         network: "GitHub",
         username: "FooBarRaz",
         url: "https://www.github.com/FooBarRaz",
-      },
-      {
-        network: "Twitter",
-        username: "fakeplasticdroid",
-        url: "https://twitter.com/fakeplasticdroid",
       },
       {
         network: "LinkedIn",
@@ -959,6 +954,10 @@ export const raz = {
     {
       name: "Soccer",
       keywords: ["PL: Manchester City", "MLS: Atlanta United"],
+    },
+    {
+      name: "Golf",
+      keywords: [],
     },
     {
       name: "Video Games",
