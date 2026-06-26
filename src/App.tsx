@@ -155,6 +155,12 @@ const IconLink = () => (
   </svg>
 );
 
+const IconDownload = () => (
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z" />
+  </svg>
+);
+
 function NetworkIcon({ network }: { network: string }) {
   switch (network.toLowerCase()) {
     case 'github': return <IconGitHub />;
@@ -171,6 +177,9 @@ function Sidebar({ basics, languages, interests }: {
   languages: Language[];
   interests: Interest[];
 }) {
+  const blogUrl = '/blog/';
+  const resumePdfUrl = '/mehraz-ali-resume.pdf';
+
   return (
     <aside className="sidebar">
       <div className="sidebar__profile">
@@ -196,6 +205,12 @@ function Sidebar({ basics, languages, interests }: {
         <a href={basics.website} className="contact-row" target="_blank" rel="noopener noreferrer">
           <IconLink /><span>{basics.website.replace(/^https?:\/\//, '')}</span>
         </a>
+        <a href={blogUrl} className="contact-row">
+          <IconLink /><span>mehrazali.com/blog/</span>
+        </a>
+        <a href={resumePdfUrl} className="contact-row" download>
+          <IconDownload /><span>Download resume PDF</span>
+        </a>
       </div>
 
       <div className="sidebar__block">
@@ -212,6 +227,8 @@ function Sidebar({ basics, languages, interests }: {
         <a href="#skills" className="nav-link">Skills</a>
         <a href="#education" className="nav-link">Education</a>
         <a href="#volunteer" className="nav-link">Volunteer</a>
+        <a href={blogUrl} className="nav-link">Blog</a>
+        <a href={resumePdfUrl} className="nav-link" download>PDF</a>
       </nav>
 
       <div className="sidebar__block">
