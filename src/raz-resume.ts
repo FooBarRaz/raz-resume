@@ -6,8 +6,8 @@ export const raz = {
     label: "Consultant | Builder | Leader | Entrepreneur",
     picture: "./profile-2026.png",
     email: "mehraz.ali@live.com",
-    phone: "1 (404) 889-6729",
-    website: "https://www.mehrazali.com",
+    phone: "706.286.4819",
+    website: "https://mehrazali.com",
     summary: `Senior Principal Engineer, AI-forward founder, and seasoned technology consultant with 13+ years of experience building and shipping software across consulting and industry. Currently leading large-scale client engagements at Slalom Build while building DogFoodLab — a product studio focused on eliminating friction from everyday life through smart, AI-powered tools. Proven track record of designing complex distributed systems, leading cross-functional teams, and driving AI adoption and acceleration at scale. Passionate about leveraging AI-driven development practices — including Spec-Driven Development (SDD), agentic workflows, and workflow automation — to ship faster and smarter. Equal parts hands-on builder and strategic leader.`,
     location: {
       postalCode: "30319",
@@ -449,6 +449,11 @@ export const raz = {
       website: "https://www.acfb.org/",
       summary:
         "Sorting and packing food donations for distribution to local food pantries.",
+    },
+    {
+      organization: "YMCA",
+      position: "Youth Soccer Coach",
+      highlights: [],
     },
   ],
   education: [
