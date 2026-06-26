@@ -57,7 +57,7 @@ export const raz = {
       endDate: "Present",
       summary: `Leading complex, large-scale client engagements from discovery through delivery as a Senior Principal Engineer. Managing and mentoring teams of engineers — providing career guidance, professional development, and technical coaching. Driving AI adoption and acceleration across teams, training and guiding organizations toward effective AI integration at scale. Assessing client business challenges and architecting best-fit technology solutions. Collaborating with delivery managers, stakeholders, and cross-functional teams to scope, estimate, and deliver modern cloud-native applications.`,
       highlights: [
-        "Promoted to Senior Principal (July 2025)",
+        "Promoted from Principal to Senior Principal (July 2025)",
         "Leading AI adoption and acceleration initiatives across client teams at scale",
         "Training and coaching teams on effective AI-driven development practices",
         "Managing complex, multi-pod client engagements end-to-end",
